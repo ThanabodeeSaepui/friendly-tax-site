@@ -1,34 +1,37 @@
 import { Routes, Route } from "react-router-dom";
-import { Layout, Menu } from 'antd';
 
-import Navbar from "./components/Navbar";
-import Home from './pages/Home';
+import Home from "./pages/Home";
 import Pricing from "./pages/Pricing";
+import Profile from "./pages/User/Profile";
+import Navbar from "./components/Navbar";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 
-import './App.css'
+import "./App.css";
 
-const { Header } = Layout;
 const items = [
   {
-    key: 0, label: "Home"
+    key: 0,
+    label: "Home",
   },
   {
-    key: 1, label: "Pricing"
+    key: 1,
+    label: "Pricing",
   },
   {
-    key: 2, label: "Register"
+    key: 2,
+    label: "Register",
   },
   {
-    key: 3, label: "Login"
+    key: 3,
+    label: "Login",
   },
-]
+];
 
 function App() {
   return (
-    < >
-    <Navbar/>
+    <>
+      <Navbar />
       {/* <Layout> */}
       {/* <Header
         style={{
@@ -48,17 +51,16 @@ function App() {
           }}
         />
       </Header> */}
-    {/* </Layout> */}
+      {/* </Layout> */}
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="pricing" element={<Pricing />} />
         <Route path="register" element={<SignUp />} />
-        <Route path="login" element={<SignIn />} >
-        </Route>
+        <Route path="login" element={<SignIn />}></Route>
       </Routes>
     </>
-    
-  )
+  );
 }
 
-export default App
+export default App;
+
