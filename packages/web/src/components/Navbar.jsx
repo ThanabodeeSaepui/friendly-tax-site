@@ -20,11 +20,11 @@ const Navbar = () => {
 
   return (
 
-    <nav className='bg-[#ffd944] flex flex-wrap md:flex-nowrap justify-between items-center max-w-[1240px] mx-auto px-4 text-white rounded-lg'>
+    <nav className='bg-[#ffd944] flex flex-wrap md:flex-nowrap justify-between items-center max-w-[1240px] mx-auto px-4 text-white ' >
       
       {/* Logo */}
       <div className='flex flex-wrap items-center '>
-        <img  className='mr-4' src={ftLogo}  style={{borderRadius:"50%", height:35, width:35}}/>
+        <img  className='mr-4 ml-5' src={ftLogo}  style={{borderRadius:"50%", height:35, width:35}}/>
       <a href="/">
       <h1 className='w-full text-2xl font-bold text-[#333333]' >Friendly Tax</h1>
       </a>
@@ -42,7 +42,7 @@ const Navbar = () => {
           </a>
           
         ))}
-      <img className="object-fit mx-4" src="https://cdn.britannica.com/38/4038-004-111388C2/Flag-Thailand.jpg"   style={{borderRadius:"50%", height:35, width:35}} />
+      <img className="object-fit ml-4 mr-5" src="https://cdn.britannica.com/38/4038-004-111388C2/Flag-Thailand.jpg"   style={{borderRadius:"50%", height:35, width:35}} />
         </div>
     </nav>
   );

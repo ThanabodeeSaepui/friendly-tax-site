@@ -7,7 +7,6 @@ import Pricing from "./pages/Pricing";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 
-
 import './App.css'
 
 const { Header } = Layout;
@@ -28,7 +27,7 @@ const items = [
 
 function App() {
   return (
-    <>
+    < >
     <Navbar/>
       {/* <Layout> */}
       {/* <Header
