@@ -1,9 +1,12 @@
 import { Routes, Route } from "react-router-dom";
 import { Layout, Menu } from 'antd';
 
-import Home from './pages/Home';
-import Profile from './pages/User/Profile';
 import Navbar from "./components/Navbar";
+import Home from './pages/Home';
+import Pricing from "./pages/Pricing";
+import SignUp from "./pages/SignUp";
+import SignIn from "./pages/SignIn";
+
 
 import './App.css'
 
@@ -26,8 +29,8 @@ const items = [
 function App() {
   return (
     <>
+    <Navbar/>
       {/* <Layout> */}
-      <Navbar/>
       {/* <Header
         style={{
           display: 'flex',
@@ -49,9 +52,9 @@ function App() {
     {/* </Layout> */}
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="user" element={<Profile />} >
-          <Route path="profile" element={<Profile />} />
-          {/* <Route path="account" element={<Account />} /> */}
+        <Route path="pricing" element={<Pricing />} />
+        <Route path="register" element={<SignUp />} />
+        <Route path="login" element={<SignIn />} >
         </Route>
       </Routes>
     </>
