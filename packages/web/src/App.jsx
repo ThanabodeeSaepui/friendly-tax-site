@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import { Layout, Menu } from "antd";
 
 import Home from "./pages/Home";
 import Pricing from "./pages/Pricing";
@@ -10,7 +9,6 @@ import SignIn from "./pages/SignIn";
 
 import "./App.css";
 
-const { Header } = Layout;
 const items = [
   {
     key: 0,

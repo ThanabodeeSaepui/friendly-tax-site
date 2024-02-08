@@ -1,5 +1,7 @@
 import layer from "../assets/layer.png";
+import coin from "../assets/coin.png";
 import arrow from "../assets/arrow.svg";
+import Footer from "../components/Footer";
 // import { Link } from "react-router-dom";
 
 export default function Home() {
@@ -23,28 +25,32 @@ export default function Home() {
           <img className="max-h-80" src={layer} />
         </div>
       </div>
-      <div className="">
-        <p className="text-blue-600 font-bold">Who we are?</p>
-        <h1 className="text-3xl font-bold">
-          Short story about <br />
-          Friendly Tax
-        </h1>
-        <p>
-          Medifine is an online healthcare provider, Offering health solution
-          <br />
-          and advice to over 30,000,000 patients across Bangaladesh
-          <br />
-          <br />
-          With team of license doctors and pharmasists, Medifine aim to <br />
-          provide comprehensive medical consultation services for patients
-          <br />
-          and doctors alike.
-        </p>
-        <div className="">
+
+      <div className="card lg:card-side bg-base-100 shadow-xl">
+        <figure>
+          <img src={coin} />
+        </figure>
+        <div className="card-body">
+          <p className="text-blue-600 font-bold">Who we are?</p>
+          <h1 className="text-3xl font-bold">
+            Short story about <br />
+            Friendly Tax
+          </h1>
+          <p>
+            Medifine is an online healthcare provider, Offering health solution
+            <br />
+            and advice to over 30,000,000 patients across Bangaladesh
+            <br />
+            <br />
+            With team of license doctors and pharmasists, Medifine aim to <br />
+            provide comprehensive medical consultation services for patients
+            <br />
+            and doctors alike.
+          </p>
           <a className="text-green-600 font-bold">Know more</a>
-          {/* <img src={arrow} /> */}
         </div>
       </div>
+      <Footer />
     </>
   );
 }
