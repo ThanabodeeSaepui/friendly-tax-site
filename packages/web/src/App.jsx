@@ -8,7 +8,6 @@ import Navbar from "./components/Navbar";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
 
-
 import "./App.css";
 
 const { Header } = Layout;
@@ -34,12 +33,8 @@ const items = [
 function App() {
   return (
     <>
-    <Navbar/>
-      {/* <Layout> */}
-<<<<<<< HEAD
       <Navbar />
-=======
->>>>>>> 4e71b82861f932736f57c0da4114baff1f6c2942
+      {/* <Layout> */}
       {/* <Header
         style={{
           display: 'flex',
@@ -61,17 +56,9 @@ function App() {
       {/* </Layout> */}
       <Routes>
         <Route path="/" element={<Home />} />
-<<<<<<< HEAD
-        <Route path="/pricing" element={<Pricing />} />
-        <Route path="user" element={<Profile />}>
-          <Route path="profile" element={<Profile />} />
-          {/* <Route path="account" element={<Account />} /> */}
-=======
         <Route path="pricing" element={<Pricing />} />
         <Route path="register" element={<SignUp />} />
-        <Route path="login" element={<SignIn />} >
->>>>>>> 4e71b82861f932736f57c0da4114baff1f6c2942
-        </Route>
+        <Route path="login" element={<SignIn />}></Route>
       </Routes>
     </>
   );
