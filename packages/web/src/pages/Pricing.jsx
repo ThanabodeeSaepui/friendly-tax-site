@@ -1,9 +1,9 @@
 export default function Pricing() {
   return (
     <>
-      <div>
-        <h1 className="text-4xl font-bold">Pricing</h1>
-      </div>
+      <h2 className="text-3xl font-bold underline">Pricing View</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adip.</p>
     </>
   );
 }
+

@@ -12,7 +12,7 @@ const Navbar = () => {
 
   // Array containing navigation items
   const navItems = [
-    { id: 1, text: 'Home', url:"/home"},
+    { id: 1, text: 'Home', url:"/"},
     { id: 2, text: 'Pricing', url:"/pricing"},
     { id: 3, text: 'Register', url:"/register"},
     { id: 4, text: 'Login', url:"/login" },
@@ -25,7 +25,7 @@ const Navbar = () => {
       {/* Logo */}
       <div className='flex flex-wrap items-center '>
         <img  className='mr-4' src={ftLogo}  style={{borderRadius:"50%", height:35, width:35}}/>
-      <a href="/home">
+      <a href="/">
       <h1 className='w-full text-2xl font-bold text-[#333333]' >Friendly Tax</h1>
       </a>
       </div>
