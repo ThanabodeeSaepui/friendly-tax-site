@@ -1,8 +1,23 @@
+import { useState } from "react"
+
 export default function SignIn() {
-    return (
-      <>
-        <h2 className="text-3xl font-bold underline">SignIn View</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adip.</p>
-      </>
-    );
+  const [currentPage, setCurentPage] = useState(1)
+  return(
+  <div>
+    <table>
+      <thead>
+        <th>ID</th>
+        <th>Email</th>
+      </thead>
+      <tbody>
+        <tr>1
+          <td>test</td>
+        </tr>
+        <tr>2
+          <td>cat</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  )
 }
