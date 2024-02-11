@@ -61,12 +61,10 @@ function App() {
         <Route path="pricing" element={<Pricing />} />
         <Route path="register" element={<SignUp />} />
         <Route path="login" element={<SignIn />} />
-        <Route path="app" element={<CompanyProfile />}>
-          <Route path="profile" element={<CompanyProfile />} />
-          <Route path="financial-record" element={<FinancialRecord />} />
-          <Route path="tax-calculator" element={<TaxCalculator />} />
-          <Route path="tax-reduction" element={<TaxReduction />} />
-        </Route>
+        <Route path="app/profile" element={<CompanyProfile />} />
+        <Route path="app/financial-record" element={<FinancialRecord />} />
+        <Route path="app/tax-calculator" element={<TaxCalculator />} />
+        <Route path="app/tax-reduction" element={<TaxReduction />} />
       </Routes>
     </>
   );
