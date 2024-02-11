@@ -7,22 +7,20 @@ import Footer from "../components/Footer";
 export default function Home() {
   return (
     <>
-      <div className="max-w-sm w-full lg:max-w-full lg:flex content-center">
-        <div className="border-r border-b border-l border-gray-400 lg:border-l-0 lg:border-t lg:border-gray-400 bg-white rounded-b lg:rounded-b-none lg:rounded-r p-4 flex flex-col leading-normal">
-          <h1 className="text-4xl font-bold">
-            Your Friendly <br />
-            Tax Manager
-          </h1>
-          <p className="">
-            We keep to help every SME reach their tax goal. <br />
-            Experience our friendliness
-          </p>
-          <button className="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded">
-            Get Started
-          </button>
-        </div>
-        <div>
-          <img className="max-h-80" src={layer} />
+      <div className="hero max-h-screen bg-base-200">
+        <div className="hero-content flex-col lg:flex-row-reverse">
+          <img src={layer} className="max-w-sm rounded-lg shadow-2xl" />
+          <div>
+            <h1 className="text-5xl font-bold">
+              Your Friendly <br />
+              Tax Manager
+            </h1>
+            <p className="py-6">
+              We keep to help every SME reach their tax goal. <br />
+              Experience our friendliness
+            </p>
+            <button className="btn btn-success">Get Started</button>
+          </div>
         </div>
       </div>
 

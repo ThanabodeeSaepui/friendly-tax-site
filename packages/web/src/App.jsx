@@ -6,6 +6,10 @@ import Profile from "./pages/User/Profile";
 import Navbar from "./components/Navbar";
 import SignUp from "./pages/SignUp";
 import SignIn from "./pages/SignIn";
+import CompanyProfile from "./pages/App/CompanyProfile";
+import FinancialRecord from "./pages/App/FinancialRecord";
+import TaxCalculator from "./pages/App/TaxCalculator";
+import TaxReduction from "./pages/App/TaxReduction";
 
 import "./App.css";
 
@@ -56,7 +60,13 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="pricing" element={<Pricing />} />
         <Route path="register" element={<SignUp />} />
-        <Route path="login" element={<SignIn />}></Route>
+        <Route path="login" element={<SignIn />} />
+        <Route path="app" element={<CompanyProfile />}>
+          <Route path="profile" element={<CompanyProfile />} />
+          <Route path="financial-record" element={<FinancialRecord />} />
+          <Route path="tax-calculator" element={<TaxCalculator />} />
+          <Route path="tax-reduction" element={<TaxReduction />} />
+        </Route>
       </Routes>
     </>
   );
