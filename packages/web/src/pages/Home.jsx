@@ -1,6 +1,6 @@
-import layer from "../assets/layer.png";
-import coin from "../assets/coin.png";
-import arrow from "../assets/arrow.svg";
+import lawer from "../assets/lawer.webp";
+import coin from "../assets/coin.webp";
+// import arrow from "../assets/arrow.svg";
 import Footer from "../components/Footer";
 // import { Link } from "react-router-dom";
 
@@ -9,7 +9,7 @@ export default function Home() {
     <>
       <div className="hero max-h-screen bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src={layer} className="max-w-sm rounded-lg shadow-2xl" />
+          <img src={lawer} className="max-w-sm rounded-lg shadow-2xl" />
           <div>
             <h1 className="text-5xl font-bold">
               Your Friendly <br />

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import ftLogo from '../assets/friendlytax_logo.png'
+import ftLogo from '../assets/friendlytax_logo.webp'
 
 const Navbar = () => {
   // State to manage the navbar's visibility

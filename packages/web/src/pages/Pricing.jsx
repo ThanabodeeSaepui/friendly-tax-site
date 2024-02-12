@@ -1,4 +1,4 @@
-import ftBg from "../assets/ft_bg.png";
+import ftBg from "../assets/ft_bg.webp";
 
 
 export default function Pricing() {
