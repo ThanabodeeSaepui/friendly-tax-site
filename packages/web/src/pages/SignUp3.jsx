@@ -1,6 +1,6 @@
 import Footer from "../components/Footer";
 
-export default function SignUp2() {
+export default function SignUp3() {
     return (
       <>
       {/* main container */}
@@ -11,8 +11,8 @@ export default function SignUp2() {
           {/* form selector */}
         <div className="grid grid-cols-5 gap-5 mx-5">
             <div className='bg-[#CBCBCB] rounded-xl text-black py-2 font-medium text-sm flex justify-center items-center'>Your Information</div>
-            <div className='bg-secondary rounded-xl text-white py-2 font-bold text-sm flex justify-center items-center'>Contact</div>
-            <div className='bg-[#CBCBCB] rounded-xl text-black py-2 font-medium text-sm flex justify-center items-center'>Company</div>
+            <div className='bg-[#CBCBCB] rounded-xl text-black py-2 font-medium text-sm flex justify-center items-center'>Contact</div>
+            <div className='bg-secondary rounded-xl text-white py-2 font-bold text-sm flex justify-center items-center'>Company</div>
             <div className='bg-[#CBCBCB] rounded-xl text-black py-2 font-medium text-sm flex justify-center items-center'>Checklist</div>
             <div className='bg-[#CBCBCB] rounded-xl text-black py-2 font-medium text-sm flex justify-center items-center'>Final</div>
         </div>
@@ -114,10 +114,10 @@ export default function SignUp2() {
         </div>
           <div>
         </div>
-        <div className="flex flex-row justify-center gap-10 mx-80">
-            <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/signup", '_parent')}>Previous</button>
-            <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/signup3", '_parent')}>Next</button>
-        </div>
+            <div className="flex flex-row justify-center gap-10 mx-80">
+                <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/signup2", '_parent')}>Previous</button>
+                <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/signup4", '_parent')}>Next</button>
+            </div>
         </div>
         <Footer/>
       </>
