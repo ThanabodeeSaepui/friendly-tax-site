@@ -17,7 +17,7 @@ export default function SignUp3() {
             <div className='bg-[#CBCBCB] rounded-xl text-black py-2 font-medium text-sm flex justify-center items-center'>Final</div>
         </div>
         {/* form */}
-        <div className='grid grid-rows-10 grid-flow-col gap-4 justify-items-center mt-10'>
+        <div className='grid grid-rows-10 grid-flow-col justify-items-center mt-10'>
           {/* -- first column --- */}
           {/* Company Name */}
           <div className='w-full max-w-xs'>
