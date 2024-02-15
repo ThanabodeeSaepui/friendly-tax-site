@@ -31,11 +31,11 @@ export default function Pricing() {
           <div className="font-bold">สแกนและช่วยกรอกงบการเงิน</div>
           <div className="font-bold">บริการ wealth management</div>
           <div className="font-bold">AI ให้คำปรึกษาด้านภาษีและ<br></br>การปรับปรุงโครงสร้างองค์กร</div>
-          <div className="font-bold">เซ็นงบการเงิน (1 time/year)</div>
+          <div className="font-bold">เซ็นงบการเงิน (1 ครั้ง/ปี)</div>
           {/* col 2 */}
           <div className="mb-3">
-            <h1 className="font-bold text-lg">Free</h1>
-            <button className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl">Register Now</button>
+            <h1 className="font-bold text-lg mb-3">Free</h1>
+            <button className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl">สมัครเลย</button>
           </div>
           <div><FontAwesomeIcon icon={faCheck} size='lg' color='black'/></div>
           <div><FontAwesomeIcon icon={faMinus} size='lg' color='black'/></div>
@@ -45,8 +45,8 @@ export default function Pricing() {
           <div><FontAwesomeIcon icon={faMinus} size='lg' color='black'/></div>
           {/* col 3 */}
           <div>
-            <h1 className="font-bold text-lg">฿ 790</h1>
-            <button className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl">Buy Now</button>
+            <h1 className="font-bold text-lg mb-3">฿ 790 /ปี</h1>
+            <button className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl">ซื้อเลย</button>
           </div>
           <div><FontAwesomeIcon icon={faCheck} size='lg' color='black'/></div>
           <div>200 GB</div>
@@ -56,8 +56,8 @@ export default function Pricing() {
           <div><FontAwesomeIcon icon={faMinus} size='lg' color='black'/></div>
           {/* col 4 */}
           <div>
-            <h1 className="font-bold text-lg">฿ 4980</h1>
-            <button className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl">Buy Now</button>
+            <h1 className="font-bold text-lg mb-3">฿ 4980 /ปี</h1>
+            <button className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl">ซื้อเลย</button>
           </div>
           <div><FontAwesomeIcon icon={faCheck} size='lg' color='black'/></div>
           <div>2 TB</div>
@@ -67,8 +67,8 @@ export default function Pricing() {
           <div><FontAwesomeIcon icon={faMinus} size='lg' color='black'/></div>
           {/* col 5 */}
           <div>
-            <h1 className="font-bold text-lg">฿ 8990</h1>
-            <button className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl">Buy Now</button>
+            <h1 className="font-bold text-lg mb-3">฿ 8990 /ปี</h1>
+            <button className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl">ซื้อเลย</button>
           </div>
           <div><FontAwesomeIcon icon={faCheck} size='lg' color='black'/></div>
           <div>2 TB</div>
@@ -82,7 +82,7 @@ export default function Pricing() {
           {/* Header */}
           <div className="rounded-3xl bg-secondary text-start">
             <h1 className="text-white text-3xl font-medium py-3 pl-5">Optional</h1>
-            <h1 className="text-white text-xl font-normal pl-5 pb-3">9990 ฿ / time</h1>
+            <h1 className="text-white text-xl font-normal pl-5 pb-3">9990 ฿ / ครั้ง</h1>
             {/* Content */}
             <div className="row-3 rounded-b-3xl bg-white text-center flex flex-col items-center h-[75%]">
               <ul className="mt-7">
@@ -91,8 +91,8 @@ export default function Pricing() {
                 </li>
               </ul>
               <div class="flex mt-4 md:mt-6 space-x-9 mb-6">
-                <a class="inline-flex items-center px-14 py-2 font-medium text-center text-white bg-secondary rounded-2xl">Buy Now</a>
-                <a class="inline-flex items-center px-14 py-2 font-medium text-center text-secondary border-secondary border-2 rounded-2xl ">More Info</a>
+                <a class="inline-flex items-center px-14 py-2 font-medium text-center text-white bg-secondary rounded-2xl">ซื้อเลย</a>
+                <a class="inline-flex items-center px-14 py-2 font-medium text-center text-secondary border-secondary border-2 rounded-2xl ">ข้อมูลเพิ่มเติม</a>
               </div> 
             </div>
           </div>
