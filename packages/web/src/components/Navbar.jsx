@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ftLogo from '../assets/friendlytax_logo.webp'
+import CompanyIcon from "../assets/bluebridge_icon.png"
 
 const Navbar = () => {
   // State to manage the navbar's visibility
@@ -14,8 +15,11 @@ const Navbar = () => {
   const navItems = [
     { id: 1, text: 'Home', url:"/"},
     { id: 2, text: 'Pricing', url:"/pricing"},
-    { id: 3, text: 'Register', url:"/register"},
-    { id: 4, text: 'Login', url:"/login" },
+    { id: 3, text: 'Financial Record', url:"/app/financial-record"},
+    { id: 4, text: 'Tax Calculator', url:"/app/tax-calculator"},
+    { id: 5, text: 'Tax-reduction', url:"/app/tax-reduction"},
+    // { id: 3, text: 'Register', url:"/register"},
+    // { id: 4, text: 'Login', url:"/login" },
   ];
 
   return (
@@ -42,7 +46,8 @@ const Navbar = () => {
           </a>
           
         ))}
-      <img className="object-fit ml-4 mr-5" src="https://cdn.britannica.com/38/4038-004-111388C2/Flag-Thailand.jpg"   style={{borderRadius:"50%", height:35, width:35}} />
+        
+        <img className="object-fit ml-4 mr-5" src={CompanyIcon} onClick={()=> window.open("http://localhost:5173/app/profile")}  style={{borderRadius:"50%", height:35, width:35}} />
         </div>
     </nav>
   );
