@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import ftLogo from '../assets/friendlytax_logo.webp'
 import CompanyIcon from "../assets/bluebridge_icon.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCalculator, faDatabase, faCaretDown, faAnglesDown } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   // State to manage the navbar's visibility
@@ -15,11 +17,7 @@ const Navbar = () => {
   const navItems = [
     { id: 1, text: 'Home', url:"/"},
     { id: 2, text: 'Pricing', url:"/pricing"},
-    { id: 3, text: 'Financial Record', url:"/app/financial-record"},
-    { id: 4, text: 'Tax Calculator', url:"/app/tax-calculator"},
-    { id: 5, text: 'Tax-reduction', url:"/app/tax-reduction"},
-    // { id: 3, text: 'Register', url:"/register"},
-    // { id: 4, text: 'Login', url:"/login" },
+    { id: 3, text: 'Sign Up', url:"/register"},
   ];
 
   return (
@@ -46,7 +44,33 @@ const Navbar = () => {
           </a>
           
         ))}
-        
+
+        <div className="dropdown dropdown-hover">
+          <div className='flex flex-row items-center'>
+            <div tabIndex={0} role="button" className="m-1 text-black">App</div>
+            <FontAwesomeIcon icon={faCaretDown} size='lg' color='black'/>
+          </div>
+          <ul tabIndex={0} className="z-[1] dropdown-content menu p-2 bg-white rounded-box w-52 text-black">
+            <li>
+              <div className='flex flex-row'>
+                <FontAwesomeIcon icon={faDatabase} size='lg' color='black'/>
+                <a href='/app/financial-record'>Financial Record</a>
+              </div>
+            </li>
+            <li>
+              <div className='flex flex-row'>
+                <FontAwesomeIcon icon={faCalculator} size='lg' color='black'/>
+                <a href='/app/tax-calculator'>Tax Calculator</a>
+              </div>
+            </li>
+            <li>
+              <div className='flex flex-row'>
+                <FontAwesomeIcon icon={faAnglesDown} size='lg' color='black'/>
+                <a href='/app/tax-reduction'>Tax-reduction</a>
+              </div>
+            </li>
+          </ul>
+        </div>
         <img className="object-fit ml-4 mr-5" src={CompanyIcon} onClick={()=> window.open("http://localhost:5173/app/profile")}  style={{borderRadius:"50%", height:35, width:35}} />
         </div>
     </nav>
