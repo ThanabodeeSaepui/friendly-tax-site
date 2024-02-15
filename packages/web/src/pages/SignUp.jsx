@@ -49,7 +49,7 @@ export default function SignUp() {
           <div>
   </div>
 
-            <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-12 rounded-2xl">Next</button>
+            <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-12 rounded-2xl" onClick={()=> window.open("/signup2", '_parent')}>Next</button>
             
         </div>
       </>

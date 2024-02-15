@@ -17,18 +17,21 @@ const Navbar = () => {
   const navItems = [
     { id: 1, text: 'Home', url:"/"},
     { id: 2, text: 'Pricing', url:"/pricing"},
-    { id: 3, text: 'Sign Up', url:"/register"},
+    { id: 3, text: 'Sign Up', url:"/signup"},
   ];
 
   return (
 
-    <nav className='bg-[#ffd944] flex flex-wrap md:flex-nowrap justify-between items-center max-w-[1240px] mx-auto px-4 text-white ' >
+    <nav className='bg-secondary flex flex-wrap md:flex-nowrap justify-between items-center max-w-[1240px] mx-auto px-4 text-white ' >
       
       {/* Logo */}
       <div className='flex flex-wrap items-center '>
         <img  className='mr-4 ml-5' src={ftLogo}  style={{borderRadius:"50%", height:35, width:35}}/>
       <a href="/">
-      <h1 className='w-full text-2xl font-bold text-[#333333]' >Friendly Tax</h1>
+        <div className='flex flex-row'>
+          <h1 className='w-full text-2xl text-[#35CBB9]' >Friendly</h1>
+          <h1 className='w-full text-2xl font-bold text-[#FEF121]' >Tax</h1>
+        </div>
       </a>
       </div>
       {/* Desktop Navigation */}
@@ -38,7 +41,7 @@ const Navbar = () => {
           <a
             key={item.id}
             href={item.url}
-            className='p-4 text-black font-normal cursor-pointer hover:font-bold'
+            className='p-4 text-white font-normal cursor-pointer hover:font-bold'
           >
             {item.text}
           </a>
@@ -47,8 +50,8 @@ const Navbar = () => {
 
         <div className="dropdown dropdown-hover">
           <div className='flex flex-row items-center'>
-            <div tabIndex={0} role="button" className="m-1 text-black">App</div>
-            <FontAwesomeIcon icon={faCaretDown} size='lg' color='black'/>
+            <div tabIndex={0} role="button" className="m-1 text-white">App</div>
+            <FontAwesomeIcon icon={faCaretDown} size='lg' color='white'/>
           </div>
           <ul tabIndex={0} className="z-[1] dropdown-content menu p-2 bg-white rounded-box w-52 text-black">
             <li>
