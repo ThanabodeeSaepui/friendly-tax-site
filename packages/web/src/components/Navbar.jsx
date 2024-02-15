@@ -74,7 +74,7 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <img className="object-fit ml-4 mr-5" src={CompanyIcon} onClick={()=> window.open("http://localhost:5173/app/profile")}  style={{borderRadius:"50%", height:35, width:35}} />
+        <img className="object-fit ml-4 mr-5 cursor-pointer" src={CompanyIcon} onClick={()=> window.open("/app/profile", '_parent')}  style={{borderRadius:"50%", height:35, width:35}} />
         </div>
     </nav>
   );

@@ -5,6 +5,7 @@ import PricingFull from "../assets/p_full.png";
 import PricingPremium from "../assets/p_premium.png";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCheck, faMinus } from "@fortawesome/free-solid-svg-icons";
+import Footer from "../components/Footer";
 
 
 export default function Pricing() {
@@ -35,7 +36,7 @@ export default function Pricing() {
           {/* col 2 */}
           <div className="mb-3">
             <h1 className="font-bold text-lg mb-3">Free</h1>
-            <button className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl">สมัครเลย</button>
+            <button className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl" onClick={()=> window.open("/signup", '_parent')}>สมัครเลย</button>
           </div>
           <div><FontAwesomeIcon icon={faCheck} size='lg' color='black'/></div>
           <div><FontAwesomeIcon icon={faMinus} size='lg' color='black'/></div>
@@ -78,7 +79,7 @@ export default function Pricing() {
           <div><FontAwesomeIcon icon={faCheck} size='lg' color='black'/></div>
         </div>
         {/* Optional */}
-        <div class="row-span-2 col-span-2 mt-3 ml-[2%]">
+        <div class="row-span-2 col-span-2 mt-3 ml-[2%] mb-10">
           {/* Header */}
           <div className="rounded-3xl bg-secondary text-start">
             <h1 className="text-white text-3xl font-medium py-3 pl-5">Optional</h1>
@@ -97,6 +98,7 @@ export default function Pricing() {
             </div>
           </div>
         </div>
+        <Footer />
       </div>
       
       // <div style={{ backgroundRepeat:'no-repeat' , backgroundColor:"#F0F4F5"}}>
