@@ -43,7 +43,6 @@ export default function SignUp2() {
             <div class="label">
                 <span class="label-text flex flex-row font-bold">Address&nbsp;<h1 className='text-error'>*</h1></span>
               </div>
-              {/* <input type="text" placeholder="Nationality" className="input input-bordered bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" /> */}
               <textarea class="resize rounded-md border border-[#7C7C7C] text-start p-3 focus:outline-none focus:border-secondary focus:ring-secondary" placeholder="Address"></textarea>
             </label>
           </div>

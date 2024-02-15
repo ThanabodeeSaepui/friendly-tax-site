@@ -17,34 +17,47 @@ export default function SignUp3() {
             <div className='bg-[#CBCBCB] rounded-xl text-black py-2 font-medium text-sm flex justify-center items-center'>Final</div>
         </div>
         {/* form */}
-        <div className='grid grid-rows-6 grid-flow-col gap-4 justify-items-center mt-10'>
+        <div className='grid grid-rows-10 grid-flow-col gap-4 justify-items-center mt-10'>
           {/* -- first column --- */}
-          {/* Email */}
+          {/* Company Name */}
           <div className='w-full max-w-xs'>
           <label class="form-control">
               <div class="label">
-                <span class="label-text flex flex-row font-bold">Email&nbsp;<h1 className='text-error'>*</h1></span>
+                <span class="label-text flex flex-row font-bold">Company Name&nbsp;<h1 className='text-error'>*</h1></span>
               </div>
-              <input type="text" placeholder="Email" class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" />
+              <input type="text" placeholder="Company Name" class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" />
           </label>
           </div>
-          {/* Password */}
-          <div className='w-full max-w-xs'>
-          <label class="form-control">
+          <div></div>
+          {/* Annual tax filling period */}
+          <div className='w-full max-w-xs row-span-1 col-span-1'>
+          <span class="label-text flex flex-row font-bold text-lg">Annual Tax Filling Period&nbsp;<h1 className='text-error'>*</h1></span>
+            {/* Start Date */}
+            <label class="form-control">
               <div class="label">
-                <span class="label-text flex flex-row font-bold">Password&nbsp;<h1 className='text-error'>*</h1></span>
+                <span class="label-text flex flex-row font-bold">Start Date&nbsp;<h1 className='text-error'>*</h1></span>
               </div>
-              <input type="text" placeholder="Password" class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" />
-          </label>
+              <input type="text" placeholder="DD / MM / YY" class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" />
+            </label>
           </div>
-          {/* Address */}
+          {/* Half-year */}
+          <div className='w-full max-w-xs row-span-1 col-span-1'>
+          <span class="label-text flex flex-row font-bold text-lg">Half-Year Tax Filling Period&nbsp;<h1 className='text-error'>*</h1></span>
+            {/* Start Date */}
+            <label class="form-control">
+              <div class="label">
+                <span class="label-text flex flex-row font-bold">Start Date&nbsp;<h1 className='text-error'>*</h1></span>
+              </div>
+              <input type="text" placeholder="DD / MM / YY" class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" />
+            </label>
+          </div>
+          {/* Company Address */}
           <div className='w-full max-w-xs row-span-2 col-span-1'>
             <label class="form-control">
             <div class="label">
-                <span class="label-text flex flex-row font-bold">Address&nbsp;<h1 className='text-error'>*</h1></span>
+                <span class="label-text flex flex-row font-bold">Company Address&nbsp;<h1 className='text-error'>*</h1></span>
               </div>
-              {/* <input type="text" placeholder="Nationality" className="input input-bordered bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" /> */}
-              <textarea class="resize rounded-md border border-[#7C7C7C] text-start p-3 focus:outline-none focus:border-secondary focus:ring-secondary" placeholder="Address"></textarea>
+              <textarea className="resize rounded-md border border-[#7C7C7C] text-start p-3 focus:outline-none focus:border-secondary focus:ring-secondary row-20" placeholder="Company Address"></textarea>
             </label>
           </div>
           {/* Country */}
@@ -72,16 +85,53 @@ export default function SignUp3() {
               <input type="text" placeholder="Postal Code" class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" />
           </label>
           </div>
+          {/* Company Logo */}
+          <div className="w-full max-w-xs row-span-2">
+                <div class="label">
+                    <span class="label-text flex flex-row font-bold">Company Logo&nbsp;<h1 className='text-error'>*</h1></span>
+                </div>
+                <div className='p-10 border-dashed border rounded-xl flex items-center justify-center border-[#7C7C7C] text-xl text-[#7C7C7C]'>Click To Browse<br></br>Or<br></br>Drag & Drop Your Files</div>
+          </div>
 
           {/* --- second column --- */}
-          <div></div>
-          {/* Confirm Password */}
+          {/* Tax ID */}
+          <div className='w-full max-w-xs'>
+          <label class="form-control">
+              <div class="label">
+                <span class="label-text flex flex-row font-bold">Tax Identification Number&nbsp;<h1 className='text-error'>*</h1></span>
+              </div>
+              <input type="text" placeholder="Tax Identification Number" class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" />
+          </label>
+          </div>
+          {/* Fascal Anniversary Date */}
           <div className='w-full max-w-xs'>
             <label class="form-control">
               <div class="label">
-                <span class="label-text flex flex-row font-bold">Confirm Password&nbsp;<h1 className='text-error'>*</h1></span>
+                <span class="label-text flex flex-row font-bold">Fascal Anniversary Date&nbsp;<h1 className='text-error'>*</h1></span>
               </div>
-              <input type="text" placeholder="Confirm Password" class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" />
+              <input type="text" placeholder="Fascal Anniversary Date" class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" />
+            </label>
+          </div>
+          {/* Annual tax filling period */}
+          <div className='w-full max-w-xs row-span-1 col-span-1'>
+          <span class="label-text flex flex-row font-bold text-lg text-white select-none">Annual Tax Filling Period</span>
+            {/* End Date */}
+            <label class="form-control">
+              <div class="label">
+                <span class="label-text flex flex-row font-bold">End Date&nbsp;<h1 className='text-error'>*</h1></span>
+              </div>
+              <input type="text" placeholder="DD / MM / YY" class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" />
+            </label>
+          </div>
+          {/* Half Year tax filling period */}
+          <div className='w-full max-w-xs row-span-1 col-span-1'>
+          <span class="label-text flex flex-row font-bold text-lg text-white select-none">Half-Year Tax Filling Period</span>
+            {/* End Date */}
+            <label class="form-control">
+              <div class="label">
+                <span class="label-text flex flex-row font-bold">End Date&nbsp;<h1 className='text-error'>*</h1></span>
+              </div>
+              <input type="text" placeholder="DD / MM / YY" class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" />
             </label>
           </div>
           <div></div>
@@ -102,13 +152,13 @@ export default function SignUp3() {
               </form>
             </label>
           </div>
-          {/* Phone Number */}
+          {/* Company Phone Number */}
           <div className='w-full max-w-xs'>
           <label class="form-control">
               <div class="label">
-                <span class="label-text flex flex-row font-bold">Phone Number&nbsp;<h1 className='text-error'>*</h1></span>
+                <span class="label-text flex flex-row font-bold">Company Phone Number&nbsp;<h1 className='text-error'>*</h1></span>
               </div>
-              <input type="text" placeholder="Phone Number" class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" />
+              <input type="text" placeholder="Company Phone Number" class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary" />
           </label>
           </div>
         </div>
