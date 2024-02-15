@@ -111,9 +111,9 @@ export default function SignUp4() {
                 </div>    
             </div>
             <div className="flex flex-row justify-center gap-10 mx-80">
-            <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/signup3", '_parent')}>Previous</button>
-            <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/signup5", '_parent')}>Next</button>
-        </div>
+                <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/signup3", '_parent')}>Previous</button>
+                <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/signup5", '_parent')}>Next</button>
+            </div>
         </div> 
         <Footer/>
       </>

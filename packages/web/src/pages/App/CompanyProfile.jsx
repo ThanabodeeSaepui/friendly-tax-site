@@ -1,11 +1,14 @@
-// import { Sidebar } from "../../components/Sidebar";
+import CompanyLogo from "../../assets/bluebridge_icon.png"
 
 export default function CompanyProfile() {
   return (
     <>
       {/* <Sidebar /> */}
-      <div className="card bg-base-100 shadow-xl p-6">
-        <h1 className="font-bold">BLUEBRIDGE</h1>
+      <div className="card bg-neutral shadow-xl p-6 mt-10 space-y-5 ">
+        <div className="w-full flex items-center justify-center"> 
+          <img src={CompanyLogo} className="w-32" />
+        </div>
+        <h1 className="font-bold text-lg">BLUEBRIDGE</h1>
         <div className="flex justify-between">
           <p className="text-left font-bold">เลขประจำตัวผู้เสียภาษี</p>
           <p className="text-right">111888444556</p>
@@ -30,9 +33,10 @@ export default function CompanyProfile() {
           <p className="text-left font-bold">ระยะเวลายื่นภาษีครึ่งปี</p>
           <p className="text-right">30/06/2024 - 30/08/2024</p>
         </div>
-        <div>
-          <button className="btn btn-active ">แก้ไข</button>
-        </div>
+        <div className="flex flex-row justify-center gap-10 mx-80">
+                <button className="border-secondary text-secondary border font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/signup5", '_parent')}>แก้ไข</button>
+                <button className="bg-secondary text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/app/tax-calculator", '_parent')}>บันทึก</button>
+            </div>
       </div>
     </>
   );
