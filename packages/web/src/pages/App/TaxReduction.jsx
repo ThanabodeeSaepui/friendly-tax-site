@@ -5,6 +5,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function TaxReduction() {
+<<<<<<< HEAD
   return (
     <>
       <div className="rounded-lg bg-white my-10 mx-[2%]">
@@ -310,6 +311,18 @@ export default function TaxReduction() {
           </div>
         </div>
       </div>
+=======
+    return <>
+    <div className="rounded-lg bg-white my-10 mx-[2%]">
+        <div>
+          <h2 className="text-5xl font-bold flex justify-start ml-[4%] pt-10 text-secondary">Tax Reduction</h2>
+          <hr className="mx-[4%] my-4 h-0.5 w-[10%] border-t-0 bg-secondary opacity-100" />
+        </div>
+
+        <div></div>
+    </div>
+       
+>>>>>>> 6b2fdb9d2d6a4c093642fc4f2e724bc6562c5dda
     </>
   );
 }
