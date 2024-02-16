@@ -7,6 +7,7 @@ import {
   faDatabase,
   faCaretDown,
   faAnglesDown,
+  faChartBar
 } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
@@ -85,7 +86,7 @@ const Navbar = () => {
             </li>
             <li>
               <div className="flex flex-row">
-                <FontAwesomeIcon icon={faAnglesDown} size="lg" color="black" />
+                <FontAwesomeIcon icon={faChartBar} size="lg" color="black" />
                 <a href="/app/summary">Summary</a>
               </div>
             </li>
