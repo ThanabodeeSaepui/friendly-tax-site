@@ -9,7 +9,7 @@ import Footer from "../components/Footer";
 
 export default function Pricing() {
   return (
-    <div>
+    <div className="rounded-lg bg-white my-10 mx-[2%]">
       {/* Header */}
       <div>
         <h2 className="text-5xl font-bold flex justify-start ml-[4%] pt-10 text-secondary">
