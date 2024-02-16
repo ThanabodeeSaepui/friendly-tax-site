@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFolder, faChevronRight } from "@fortawesome/free-solid-svg-icons";
+import { faFolder } from "@fortawesome/free-solid-svg-icons";
 import FolderIcon from "../../assets/pngwing 52.png"
 import AddFolder from "../../assets/add-folder.png"
 import Footer from "../../components/Footer";
@@ -19,30 +19,30 @@ export default function FinancialRecord() {
 
         <div className='grid grid-cols-3 items-center justify-items-center space-y-10'>
             {/* row 1 */}
-            <div className=''>
-                <img src={FolderIcon} className='w-32' />
+            <div className='mt-10'>
+                <img src={FolderIcon} className='w-32 cursor-pointer' onClick={() => window.open("/app/financial-record-2024", "_parent")}/>
                 <h1 className='font-medium'>2024</h1>
             </div>
-            <div className=''>
-                <img src={FolderIcon} className='w-32' />
+            <div>
+                <img src={FolderIcon} className='w-32 cursor-pointer' onClick={() => window.open("/app/financial-record-2023", "_parent")} />
                 <h1 className='font-medium'>2023</h1>
             </div>
-            <div className=''>
-                <img src={FolderIcon} className='w-32' />
+            <div>
+                <img src={FolderIcon} className='w-32 cursor-pointer' onClick={() => window.open("/app/financial-record-2022", "_parent")} />
                 <h1 className='font-medium'>2022</h1>
             </div>
 
             {/* row 2 */}
-            <div className=''>
-                <img src={FolderIcon} className='w-32' />
+            <div>
+                <img src={FolderIcon} className='w-32 cursor-pointer' onClick={() => window.open("/app/financial-record-2021", "_parent")} />
                 <h1 className='font-medium'>2021</h1>
             </div>
-            <div className=''>
-                <img src={FolderIcon} className='w-32' />
+            <div>
+                <img src={FolderIcon} className='w-32 cursor-pointer' onClick={() => window.open("/app/financial-record-2020", "_parent")} />
                 <h1 className='font-medium'>2020</h1>
             </div>
-            <div className=''>
-                <img src={FolderIcon} className='w-32' />
+            <div>
+                <img src={FolderIcon} className='w-32 cursor-pointer' onClick={() => window.open("/app/financial-record-2-shared", "_parent")} />
                 <h1 className='font-medium'>Shared</h1>
             </div>
             
