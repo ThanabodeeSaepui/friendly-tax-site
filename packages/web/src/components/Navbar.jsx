@@ -83,6 +83,12 @@ const Navbar = () => {
                 <a href="/app/tax-reduction">Tax-reduction</a>
               </div>
             </li>
+            <li>
+              <div className="flex flex-row">
+                <FontAwesomeIcon icon={faAnglesDown} size="lg" color="black" />
+                <a href="/app/summary">Summary</a>
+              </div>
+            </li>
           </ul>
         </div>
         <img
