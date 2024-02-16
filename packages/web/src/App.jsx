@@ -118,7 +118,6 @@ function App() {
         <Route path="app/tax-reduction-6" element={<TaxReduction6 />} />
 
         <Route path="app/tax-compare" element={<AICompare />} />
-
       </Routes>
     </>
   );

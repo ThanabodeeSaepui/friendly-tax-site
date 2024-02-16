@@ -35,13 +35,13 @@ export default function Navbar() {
             className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
           >
             <li>
-              <a>Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a>Pricing</a>
+              <Link to="/pricing">Pricing</Link>
             </li>
             <li>
-              <a>App</a>
+              <Link to="/app/profile">App</Link>
               <ul className="p-2">
                 <li>
                   <div className="flex flex-row">
@@ -87,7 +87,7 @@ export default function Navbar() {
             </li>
           </ul>
         </div>
-        <a className="btn btn-ghost text-xl" href="/">
+        <Link className="btn btn-ghost text-xl" to="/">
           <img
             src={ftLogo}
             style={{ borderRadius: "50%", height: 35, width: 35 }}
@@ -96,19 +96,19 @@ export default function Navbar() {
             <h1 className="w-full text-2xl text-[#35CBB9]">Friendly</h1>
             <h1 className="w-full text-2xl font-bold text-[#FEF121]">Tax</h1>
           </div>
-        </a>
+        </Link>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">
           <li>
-            <a className="text-white font-bold" href="/">
+            <Link className="text-white font-bold" to="/">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a className="text-white font-bold" href="/pricing">
+            <Link className="text-white font-bold" to="/pricing">
               Pricing
-            </a>
+            </Link>
           </li>
           <li>
             <details>
@@ -161,15 +161,18 @@ export default function Navbar() {
       </div>
       <div className="navbar-end">
         <Link to="/signup">
-          <button className="btn btn-accent">Sign Up</button>
+          <button className="btn btn-accent sm:btn-sm md:btn-sm lg:btn-md">
+            Sign Up
+          </button>
         </Link>
-
-        <img
-          className="object-fit ml-4 mr-5 cursor-pointer"
-          src={CompanyIcon}
-          onClick={() => window.open("/app/profile", "_parent")}
-          style={{ borderRadius: "50%", height: 35, width: 35 }}
-        />
+        <Link to="/app/profile">
+          <img
+            className="object-fit mx-4 cursor-pointer"
+            src={CompanyIcon}
+            // onClick={() => window.open("/app/profile", "_parent")}
+            style={{ borderRadius: "50%", height: 35, width: 35 }}
+          />
+        </Link>
       </div>
     </div>
   );
