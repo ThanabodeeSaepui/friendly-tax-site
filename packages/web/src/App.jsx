@@ -33,6 +33,7 @@ import TaxCalculator from "./pages/App/TaxCalculator";
 import TaxReduction from "./pages/App/TaxReduction";
 import TaxReduction2 from "./pages/App/TaxReduction2";
 import TaxReduction3 from "./pages/App/TaxReduction3";
+import TaxReduction4 from "./pages/App/TaxReduction4";
 
 import "./App.css";
 
@@ -75,6 +76,7 @@ function App() {
         <Route path="app/tax-reduction" element={<TaxReduction />} />
         <Route path="app/tax-reduction-2" element={<TaxReduction2 />} />
         <Route path="app/tax-reduction-3" element={<TaxReduction3 />} />
+        <Route path="app/tax-reduction-4" element={<TaxReduction4 />} />
       </Routes>
     </>
   );
