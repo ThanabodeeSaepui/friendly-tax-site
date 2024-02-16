@@ -66,15 +66,15 @@ export default function TaxCalculator() {
           <div></div>
           <div></div>
           <div className="flex flex-row">
-            <div class="label">
-              <span class="label-text flex flex-row mr-5 text-secondary font-bold">
+            <div className="label">
+              <span className="label-text flex flex-row mr-5 text-secondary font-bold">
                 ปี
               </span>
             </div>
             <input
               type="text"
               placeholder="2566"
-              class=" input input-bordered w-20 text-center bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+              className=" input input-bordered w-20 text-center bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
             />
           </div>
         </div>
@@ -84,7 +84,7 @@ export default function TaxCalculator() {
           <div className="w-full max-w-xs">
             <input
               type="text"
-              class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+              className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
             />
           </div>
           <div className="text-center">บาท</div>
@@ -93,7 +93,7 @@ export default function TaxCalculator() {
           <div className="w-full max-w-xs">
             <input
               type="text"
-              class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+              className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
             />
           </div>
           <div className="text-center">บาท</div>
@@ -103,7 +103,7 @@ export default function TaxCalculator() {
           <div className="w-full max-w-xs">
             <input
               type="text"
-              class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+              className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
             />
           </div>
           <div>บาท</div>
@@ -115,7 +115,7 @@ export default function TaxCalculator() {
             <div className="w-full max-w-xs">
               <input
                 type="text"
-                class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+                className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
               />
             </div>
             <div className="font-bold">บาท</div>
@@ -161,7 +161,7 @@ export default function TaxCalculator() {
           <div className="w-full max-w-xs">
             <input
               type="text"
-              class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+              className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
             />
           </div>
           <div className="text-center">บาท</div>
@@ -175,7 +175,7 @@ export default function TaxCalculator() {
             <div className="w-full max-w-xs">
               <input
                 type="text"
-                class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+                className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
               />
             </div>
             <div className="font-bold">บาท</div>
@@ -190,7 +190,7 @@ export default function TaxCalculator() {
           <div className="w-full max-w-xs">
             <input
               type="text"
-              class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+              className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
             />
           </div>
           <div className="text-center">บาท</div>
@@ -199,7 +199,7 @@ export default function TaxCalculator() {
           <div className="w-full max-w-xs">
             <input
               type="text"
-              class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+              className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
             />
           </div>
           <div className="text-center">บาท</div>
@@ -211,7 +211,7 @@ export default function TaxCalculator() {
           <div className="w-full max-w-xs">
             <input
               type="text"
-              class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+              className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
             />
           </div>
           <div className="text-center">บาท</div>
@@ -225,7 +225,7 @@ export default function TaxCalculator() {
             <div className="w-full max-w-xs">
               <input
                 type="text"
-                class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+                className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
               />
             </div>
             <div className="font-bold">บาท</div>
@@ -240,7 +240,7 @@ export default function TaxCalculator() {
           <div className="w-full max-w-xs">
             <input
               type="text"
-              class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+              className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
             />
           </div>
           <div className="text-center">บาท</div>
@@ -249,7 +249,7 @@ export default function TaxCalculator() {
           <div className="w-full max-w-xs">
             <input
               type="text"
-              class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+              className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
             />
           </div>
           <div className="text-center">บาท</div>
@@ -260,7 +260,7 @@ export default function TaxCalculator() {
           <div className="w-full max-w-xs">
             <input
               type="text"
-              class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+              className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
             />
           </div>
           <div className="text-center">บาท</div>
@@ -270,7 +270,7 @@ export default function TaxCalculator() {
           <div className="w-full max-w-xs">
             <input
               type="text"
-              class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+              className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
             />
           </div>
           <div className="text-center">บาท</div>
@@ -284,7 +284,7 @@ export default function TaxCalculator() {
             <div className="w-full max-w-xs">
               <input
                 type="text"
-                class="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
+                className="input input-bordered w-full max-w-xs bg-neutral border-[#7C7C7C] focus:outline-none focus:border-secondary focus:ring-secondary"
               />
             </div>
             <div className="font-bold">บาท</div>

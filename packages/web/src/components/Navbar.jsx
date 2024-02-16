@@ -111,9 +111,14 @@ export default function Navbar() {
             </Link>
           </li>
           <li>
-            <details>
-              <summary className="text-white font-bold">App</summary>
-              <ul class="p-2">
+            <details style={{ position: "relative", zIndex: 1 }}>
+              <summary
+                className="text-white font-bold"
+                style={{ position: "relative", zIndex: 1 }}
+              >
+                App
+              </summary>
+              <ul className="p-2">
                 <li>
                   <div className="flex flex-row">
                     <FontAwesomeIcon

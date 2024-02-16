@@ -159,7 +159,7 @@ export default function Pricing() {
           </div>
         </div>
         {/* Optional */}
-        <div class="row-span-2 col-span-2 my-10 ml-[2%] p-10">
+        <div className="row-span-2 col-span-2 my-10 ml-[2%] p-10">
           {/* Header */}
           <div className="rounded-3xl bg-secondary text-start">
             <h1 className="text-white text-3xl font-medium py-3 pl-5">
@@ -172,16 +172,16 @@ export default function Pricing() {
             <div className="row-3 rounded-b-3xl bg-white text-center flex flex-col items-center h-[75%] shadow-lg">
               <ul className="mt-7">
                 <li>
-                  <span class="text-base font-normal leading-tight ms-3">
+                  <span className="text-base font-normal leading-tight ms-3">
                     บริการช่วยจดทะเบียนบริษัทให้เป็นบริษัทจำกัด
                   </span>
                 </li>
               </ul>
-              <div class="flex mt-4 md:mt-6 space-x-9 mb-6">
-                <a class="inline-flex items-center px-14 py-2 font-medium text-center text-white bg-secondary rounded-2xl">
+              <div className="flex mt-4 md:mt-6 space-x-9 mb-6">
+                <a className="inline-flex items-center px-14 py-2 font-medium text-center text-white bg-secondary rounded-2xl">
                   ซื้อเลย
                 </a>
-                <a class="inline-flex items-center px-14 py-2 font-medium text-center text-secondary border-secondary border-2 rounded-2xl ">
+                <a className="inline-flex items-center px-14 py-2 font-medium text-center text-secondary border-secondary border-2 rounded-2xl ">
                   ข้อมูลเพิ่มเติม
                 </a>
               </div>
@@ -196,12 +196,12 @@ export default function Pricing() {
     //   {/* Heading */}
     //   <h2 className="text-5xl font-bold flex justify-start ml-[4%] pt-10">Pricing</h2>
     //   {/* divider */}
-    //   <div class="relative flex py-5 items-center">
-    //     <div class=" flex-grow  border-black border  mx-[4%]"></div>
+    //   <div className="relative flex py-5 items-center">
+    //     <div className=" flex-grow  border-black border  mx-[4%]"></div>
     //   </div>
-    //   <div class="grid grid-rows-4 grid-flow-col gap-4 ml-[3%]">
+    //   <div className="grid grid-rows-4 grid-flow-col gap-4 ml-[3%]">
     //     {/* Bronze Card*/}
-    //     <div class="row-span-2 col-span-1 ml-[4%]">
+    //     <div className="row-span-2 col-span-1 ml-[4%]">
 
     //       {/* Header */}
     //       <div className="rounded-t-3xl bg-[#D47030] text-start">
@@ -212,10 +212,10 @@ export default function Pricing() {
     //       <div className="row-3 rounded-b-3xl bg-white text-center flex flex-col items-center h-[75%]">
     //       <ul className="mt-7 space-y-4">
     //           <li className="flex items-center">
-    //           <span class="text-base font-normal leading-tight ms-3">- ตรวจสอบว่าเป็น SME หรือไม่</span>
+    //           <span className="text-base font-normal leading-tight ms-3">- ตรวจสอบว่าเป็น SME หรือไม่</span>
     //           </li>
     //           <li className="flex items-center">
-    //           <span class="invisible">a</span>
+    //           <span className="invisible">a</span>
     //         </li>
     //         </ul>
 
@@ -226,7 +226,7 @@ export default function Pricing() {
     //     </div>
 
     //     {/* Optional */}
-    //     <div class="row-span-2 col-span-2 mt-3 ml-[2%]">
+    //     <div className="row-span-2 col-span-2 mt-3 ml-[2%]">
     //       {/* Header */}
     //       <div className="rounded-3xl bg-[#3DC0C9] text-start">
     //         <h1 className="text-white text-3xl font-medium py-3 pl-5">Optional</h1>
@@ -235,13 +235,13 @@ export default function Pricing() {
     //       <div className="row-3 rounded-b-3xl bg-white text-center flex flex-col items-center h-[75%]">
     //       <ul className="mt-7">
     //         <li>
-    //           <span class="text-base font-normal leading-tight ms-3">บริการช่วยจดทะเบียนบริษัทให้เป็นบริษัทจำกัด</span>
+    //           <span className="text-base font-normal leading-tight ms-3">บริการช่วยจดทะเบียนบริษัทให้เป็นบริษัทจำกัด</span>
     //         </li>
     //         </ul>
 
-    //         <div class="flex mt-4 md:mt-6 space-x-9 mb-6">
-    //           <a class="inline-flex items-center px-14 py-2 font-medium text-center text-white bg-[#3DC0C9] rounded-2xl">Buy Now</a>
-    //           <a class="inline-flex items-center px-14 py-2 font-medium text-center text-[#3DC0C9] border-[#3DC0C9] border-2 rounded-2xl ">More Info</a>
+    //         <div className="flex mt-4 md:mt-6 space-x-9 mb-6">
+    //           <a className="inline-flex items-center px-14 py-2 font-medium text-center text-white bg-[#3DC0C9] rounded-2xl">Buy Now</a>
+    //           <a className="inline-flex items-center px-14 py-2 font-medium text-center text-[#3DC0C9] border-[#3DC0C9] border-2 rounded-2xl ">More Info</a>
     //         </div>
 
     //       </div>
@@ -249,7 +249,7 @@ export default function Pricing() {
     //     </div>
 
     //     {/* Silver */}
-    //     <div class="row-span-2 col-span-1">
+    //     <div className="row-span-2 col-span-1">
     //       {/* Header */}
     //       <div className="rounded-t-3xl bg-[#626262] text-start">
     //         <h1 className="text-white text-3xl font-medium py-3 pl-5">Silver</h1>
@@ -259,10 +259,10 @@ export default function Pricing() {
     //       <div className="row-3 rounded-b-3xl bg-white text-center flex flex-col items-center h-[75%]">
     //       <ul className="mt-7 space-y-4">
     //         <li className="flex items-center">
-    //           <span class="text-base font-normal leading-tight ms-3">- ตรวจสอบว่าเป็น SME หรือไม่</span>
+    //           <span className="text-base font-normal leading-tight ms-3">- ตรวจสอบว่าเป็น SME หรือไม่</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="text-base font-normal leading-tight ms-3">- เก็บไฟล์เอกสาร 2 TB</span>
+    //           <span className="text-base font-normal leading-tight ms-3">- เก็บไฟล์เอกสาร 2 TB</span>
     //         </li>
     //         </ul>
 
@@ -271,7 +271,7 @@ export default function Pricing() {
     //       </div>
     //     </div>
     //     {/* Gold */}
-    //     <div class="row-span-4 col-span-1">
+    //     <div className="row-span-4 col-span-1">
     //       {/* Header */}
     //       <div className="rounded-t-3xl bg-[#FFCB44] text-start">
     //         <h1 className="text-white text-3xl font-medium py-3 pl-5">Gold</h1>
@@ -281,28 +281,28 @@ export default function Pricing() {
     //       <div className="row-3 rounded-b-3xl bg-white text-center flex flex-col items-center h-[75%]">
     //       <ul className="mt-7 space-y-4 ml-3">
     //         <li className="flex items-center">
-    //           <span class="text-base font-normal leading-tight ms-3">- ตรวจสอบว่าเป็น SME หรือไม่</span>
+    //           <span className="text-base font-normal leading-tight ms-3">- ตรวจสอบว่าเป็น SME หรือไม่</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="text-base font-normal leading-tight ms-3">- เก็บไฟล์เอกสาร 2 TB</span>
+    //           <span className="text-base font-normal leading-tight ms-3">- เก็บไฟล์เอกสาร 2 TB</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="text-base font-normal leading-tight ms-3">- สแกนและช่วยกรอกงบการเงิน</span>
+    //           <span className="text-base font-normal leading-tight ms-3">- สแกนและช่วยกรอกงบการเงิน</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="text-base font-normal leading-tight ms-3">- บริการ wealth management</span>
+    //           <span className="text-base font-normal leading-tight ms-3">- บริการ wealth management</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="invisible">- AI ให้คำปรึกษาด้านภาษีและการปรับปรุงโครงสร้างองค์กร</span>
+    //           <span className="invisible">- AI ให้คำปรึกษาด้านภาษีและการปรับปรุงโครงสร้างองค์กร</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="invisible">- เซ็นงบการเงิน (1 time/year)</span>
+    //           <span className="invisible">- เซ็นงบการเงิน (1 time/year)</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="invisible">a</span>
+    //           <span className="invisible">a</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="invisible">a</span>
+    //           <span className="invisible">a</span>
     //         </li>
     //       </ul>
 
@@ -311,7 +311,7 @@ export default function Pricing() {
     //       </div>
     //     </div>
     //     {/* Platinum */}
-    //     <div class="row-span-4 col-span-1">
+    //     <div className="row-span-4 col-span-1">
     //       {/* Header */}
     //       <div className="rounded-t-3xl bg-[#39ACFF] text-start">
     //         <h1 className="text-white text-3xl font-medium py-3 pl-5">Platinum</h1>
@@ -321,28 +321,28 @@ export default function Pricing() {
     //       <div className="row-3 rounded-b-3xl bg-white text-center flex flex-col items-center h-[75%]">
     //       <ul className="mt-7 space-y-4 text-center md:text-left ml-3">
     //         <li className="flex items-center">
-    //           <span class="text-base font-normal leading-tight ms-3">- ตรวจสอบว่าเป็น SME หรือไม่</span>
+    //           <span className="text-base font-normal leading-tight ms-3">- ตรวจสอบว่าเป็น SME หรือไม่</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="text-base font-normal leading-tight ms-3">- เก็บไฟล์เอกสาร 200 GB</span>
+    //           <span className="text-base font-normal leading-tight ms-3">- เก็บไฟล์เอกสาร 200 GB</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="text-base font-normal leading-tight ms-3">- สแกนและช่วยกรอกงบการเงิน</span>
+    //           <span className="text-base font-normal leading-tight ms-3">- สแกนและช่วยกรอกงบการเงิน</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="text-base font-normal leading-tight ms-3">- บริการ wealth management</span>
+    //           <span className="text-base font-normal leading-tight ms-3">- บริการ wealth management</span>
     //         </li>
     //         <li className="">
-    //           <span class="text-base text-left font-normal ms-3">- AI ให้คำปรึกษาด้านภาษีและการปรับปรุงโครงสร้างองค์กร</span>
+    //           <span className="text-base text-left font-normal ms-3">- AI ให้คำปรึกษาด้านภาษีและการปรับปรุงโครงสร้างองค์กร</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="text-base font-normal leading-tight ms-3">- เซ็นงบการเงิน (1 time/year)</span>
+    //           <span className="text-base font-normal leading-tight ms-3">- เซ็นงบการเงิน (1 time/year)</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="invisible">a</span>
+    //           <span className="invisible">a</span>
     //         </li>
     //         <li className="flex items-center">
-    //           <span class="invisible">a</span>
+    //           <span className="invisible">a</span>
     //         </li>
     //       </ul>
 
