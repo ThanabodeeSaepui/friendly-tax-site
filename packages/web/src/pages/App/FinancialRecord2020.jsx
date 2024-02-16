@@ -29,7 +29,7 @@ export default function FinancialRecord2020() {
         <div className='grid grid-cols-3  justify-items-center space-y-10'>
             {/* row 1 */}
             <div className='mt-10'>
-                <img src={FolderIcon} className='w-32 cursor-pointer' onClick={() => window.open("/app/financial-record-tax-reduction", "_parent")}/>
+                <img src={FolderIcon} className='w-32 cursor-pointer' onClick={() => window.open("/app/financial-record-tax-reduction-20", "_parent")}/>
                 <h1 className='font-medium'>ลดหย่อนภาษี</h1>
             </div>
             <div>
