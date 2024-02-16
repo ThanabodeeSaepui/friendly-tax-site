@@ -80,7 +80,7 @@ const Navbar = () => {
             <li>
               <div className="flex flex-row">
                 <FontAwesomeIcon icon={faAnglesDown} size="lg" color="black" />
-                <a href="/app/tax-reduction">Tax-reduction</a>
+                <a href="/app/tax-reduction">Tax Reduction</a>
               </div>
             </li>
           </ul>
