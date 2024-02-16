@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpFromBracket, faPlus, faCircleQuestion } from "@fortawesome/free-solid-svg-icons";
+import { faArrowUpFromBracket } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function TaxReduction2() {
@@ -105,7 +105,7 @@ export default function TaxReduction2() {
           <div className="text-secondary font-bold  my-10"><FontAwesomeIcon className="mr-3" icon={faArrowUpFromBracket} size="lg" color="#740087" />แนบไฟล์</div>
 
         {/* row 5 */}        
-        <div className="flex flex-row text-start items-start justify-start col-span-2 w-full mb-10">
+        <div className="flex flex-row text-start items-start justify-start col-span-2 w-full">
           <input className="w-5 h-5" type="checkbox" />
           <div className="flex flex-col items-start justify-center ml-5">
             <h1 className="text-secondary font-bold ">
@@ -127,9 +127,11 @@ export default function TaxReduction2() {
 
         </div>
         
+        <h1 className="text-error mt-10">คุณยังสามารถลดหย่อนภาษีได้อีก 60 วัน</h1>
+
         <div className="flex flex-row justify-center gap-10 mx-80">
         <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/app/tax-reduction", '_parent')}>Previous</button>
-          <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/app/tax-reduction-2", '_parent')}>Next</button>
+          <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/app/tax-reduction-3", '_parent')}>Next</button>
         </div>
       </div>
     </>
