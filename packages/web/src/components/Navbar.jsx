@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ftLogo from "../assets/friendlytax_logo.webp";
-import CompanyIcon from "../assets/bluebridge_icon.webp";
+import CompanyIcon from "../assets/bluebridge_icon.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faCalculator,
