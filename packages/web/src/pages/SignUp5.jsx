@@ -26,29 +26,29 @@ export default function SignUp5() {
         <h1 className="font-medium text-3xl pt-10 mt-20">
           ธุรกิจของคุณได้จดทะเบียนนิติบุคคลหรือไม่
         </h1>
-        <div className="flex flex-row justify-center gap-10 mx-80 mb-20">
+        <div className="flex flex-row justify-center gap-10 mb-5">
           <button
-            className="bg-secondary text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl"
+            className="bg-secondary text-white font-bold w-32 py-2.5 my-10 rounded-2xl"
             onClick={() => window.open("/app/profile", "_parent")}
           >
             จด
           </button>
           <button
-            className="border border-secondary text-secondary font-bold w-[45%] py-2.5 my-10 rounded-2xl"
+            className="border border-secondary text-secondary font-bold w-32 py-2.5 my-10 rounded-2xl"
             onClick={() => window.open("/app/profile", "_parent")}
           >
             ไม่จด
           </button>
         </div>
-        <div className="flex flex-row justify-center gap-10 mx-80">
+        <div className="flex flex-row justify-center gap-10">
           <button
-            className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl"
+            className="bg-[#979797] text-white font-bold w-32 py-2.5 my-10 rounded-2xl"
             onClick={() => window.open("/signup4", "_parent")}
           >
             Previous
           </button>
           <button
-            className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl"
+            className="bg-[#979797] text-white font-bold w-32 py-2.5 my-10 rounded-2xl"
             onClick={() => window.open("/app/profile", "_parent")}
           >
             Next
@@ -58,3 +58,4 @@ export default function SignUp5() {
     </>
   );
 }
+

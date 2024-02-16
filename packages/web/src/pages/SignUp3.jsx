@@ -257,16 +257,15 @@ export default function SignUp3() {
             </label>
           </div>
         </div>
-        <div></div>
-        <div className="flex flex-row justify-center gap-10 mx-80">
+        <div className="flex flex-row justify-center gap-10">
           <button
-            className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl"
+            className="bg-[#979797] text-white font-bold w-32 py-2.5 my-10 rounded-2xl"
             onClick={() => window.open("/signup2", "_parent")}
           >
             Previous
           </button>
           <button
-            className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl"
+            className="bg-[#979797] text-white font-bold w-32 py-2.5 my-10 rounded-2xl"
             onClick={() => window.open("/signup4", "_parent")}
           >
             Next
@@ -276,3 +275,4 @@ export default function SignUp3() {
     </>
   );
 }
+

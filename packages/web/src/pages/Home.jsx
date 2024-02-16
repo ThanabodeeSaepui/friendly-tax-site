@@ -28,7 +28,7 @@ export default function Home() {
         <div className="hero-content flex-col lg:flex-row-reverse overflow-hidden">
           <img
             src={office}
-            className="max-w-sm rounded-lg shadow-2xl object-scale-down"
+            className="max-w-sm min-w-12 rounded-lg shadow-2xl object-scale-down"
           />
           <div>
             <h1 className="text-5xl font-bold">

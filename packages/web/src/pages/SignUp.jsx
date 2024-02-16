@@ -165,11 +165,9 @@ export default function SignUp() {
               <li><FontAwesomeIcon icon={faXmark} size='lg' color='#960012' className='mr-2'/>One special character ‘!@#$%^&*’</li>
             </ul>
           </div> */}
-
-        <div></div>
-        <div className="mx-80">
+        <div>
           <button
-            className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl"
+            className="bg-[#979797] text-white font-bold w-32 py-2.5 my-10 rounded-2xl"
             onClick={() => window.open("/signup2", "_parent")}
           >
             Next

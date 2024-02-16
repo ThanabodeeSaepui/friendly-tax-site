@@ -32,15 +32,15 @@ export default function CompanyProfile() {
           <p className="text-left font-bold">ระยะเวลายื่นภาษีครึ่งปี</p>
           <p className="text-right">30/06/2024 - 30/08/2024</p>
         </div>
-        <div className="flex flex-row justify-center gap-10 mx-80">
+        <div className="flex flex-row justify-center gap-10">
           <button
-            className="border-secondary text-secondary border font-bold w-[45%] py-2.5 my-10 rounded-2xl"
+            className="border-secondary text-secondary border font-bold w-32 py-2.5 my-10 rounded-2xl"
             onClick={() => window.open("/signup5", "_parent")}
           >
             แก้ไข
           </button>
           <button
-            className="bg-secondary text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl"
+            className="bg-secondary text-white font-bold w-32 py-2.5 my-10 rounded-2xl"
             onClick={() => window.open("/app/tax-calculator", "_parent")}
           >
             บันทึก

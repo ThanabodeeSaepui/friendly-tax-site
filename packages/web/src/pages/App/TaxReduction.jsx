@@ -15,7 +15,6 @@ export default function TaxReduction() {
           </h2>
           <hr className="mx-[4%] my-4 h-0.5 w-[10%] border-t-0 bg-secondary opacity-100" />
         </div>
-
         <div className="flex flex-row justify-center items-center ml-[4%] my-10">
           {/* funding heading */}
           <div className="flex flex-row space-x-4">
@@ -64,7 +63,6 @@ export default function TaxReduction() {
             </div>
           </div>
         </div>
-
         <div className="grid grid-cols-3 ml-32 justify-items-center">
           {/* row 1 */}
           <div className="flex flex-row text-start items-start justify-start col-span-2 w-full my-10">
@@ -323,14 +321,12 @@ export default function TaxReduction() {
             </h1>
           </div>
         </div>
-
         <h1 className="text-error mt-10">
           คุณยังสามารถลดหย่อนภาษีได้อีก 60 วัน
         </h1>
-
-        <div className="flex flex-row justify-center gap-10 mx-80">
+        <div className="flex flex-row justify-center gap-10">
           <button
-            className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl"
+            className="bg-[#979797] text-white font-bold w-32 py-2.5 my-10 rounded-2xl"
             onClick={() => window.open("/app/tax-reduction-2", "_parent")}
           >
             Next
