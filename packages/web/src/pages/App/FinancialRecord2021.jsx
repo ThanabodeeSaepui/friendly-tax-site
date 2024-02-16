@@ -4,7 +4,7 @@ import FolderIcon from "../../assets/pngwing 52.png"
 import AddFolder from "../../assets/add-folder.png"
 import Footer from "../../components/Footer";
 
-export default function FinancialRecord2024() {
+export default function FinancialRecord2021() {
     return <>
     <div className="rounded-lg bg-white my-10 mx-[2%]">
         <div>
@@ -23,7 +23,7 @@ export default function FinancialRecord2024() {
 
             {/* 2024 */}
             <FontAwesomeIcon className='ml-3' icon={faFolder} size='lg' color='#740087'/>
-            <div className='ml-1 mr-3 text-secondary font-medium'>2024</div>
+            <div className='ml-1 mr-3 text-secondary font-medium'>2021</div>
         </div>
 
         <div className='grid grid-cols-3  justify-items-center space-y-10'>

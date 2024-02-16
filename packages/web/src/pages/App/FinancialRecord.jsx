@@ -42,7 +42,7 @@ export default function FinancialRecord() {
                 <h1 className='font-medium'>2020</h1>
             </div>
             <div>
-                <img src={FolderIcon} className='w-32 cursor-pointer' onClick={() => window.open("/app/financial-record-2-shared", "_parent")} />
+                <img src={FolderIcon} className='w-32 cursor-pointer' />
                 <h1 className='font-medium'>Shared</h1>
             </div>
             
