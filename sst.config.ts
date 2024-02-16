@@ -9,6 +9,8 @@ export default {
     return {
       name: "friendly-tax-site",
       region: "ap-southeast-1",
+      // stage:'dev',
+      // profile:'personal',
     };
   },
   stacks(app) {
