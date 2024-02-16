@@ -25,8 +25,11 @@ export default function Home() {
 
       {/* hero */}
       <div className="hero min-h-fit bg-base-200">
-        <div className="hero-content flex-col lg:flex-row-reverse">
-          <img src={office} className="max-w-sm rounded-lg shadow-2xl" />
+        <div className="hero-content flex-col lg:flex-row-reverse overflow-hidden">
+          <img
+            src={office}
+            className="max-w-sm rounded-lg shadow-2xl object-scale-down"
+          />
           <div>
             <h1 className="text-5xl font-bold">
               Short story about
