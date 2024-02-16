@@ -1,6 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faArrowUpFromBracket, faPlus } from "@fortawesome/free-solid-svg-icons";
-import Dialog from "../../components/Dialog";
+import { faArrowUpFromBracket, faPlus, faCircleQuestion } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function TaxReduction() {
@@ -12,6 +11,37 @@ export default function TaxReduction() {
             Tax Reduction
           </h2>
           <hr className="mx-[4%] my-4 h-0.5 w-[10%] border-t-0 bg-secondary opacity-100" />
+        </div>
+
+        <div className="flex flex-row justify-center items-center ml-[4%] my-10">
+          {/* funding heading */}
+        <div className="flex flex-row space-x-4">
+          <div className="dropdown dropdown-hover">
+            <div className="flex flex-row items-center">
+            <div className="mr-1 text-secondary font-medium text-3xl">ค่าใช้จ่าย</div>
+              <FontAwesomeIcon icon={faCircleQuestion} size="xl" color="#740087" />
+            </div>
+            {/* optional options */}
+            <ul
+              tabIndex={0}
+              className="z-[1] dropdown-content menu p-2 bg-white rounded-box w-96 text-black"
+            >
+              <li>
+                <div className="flex flex-col">
+                  <h1 className="font-bold text-secondary">รายการที่ไม่ถือเป็นรายจ่าย ตามประมวลกฎหมายรัษฎากร มาตรา 65 ตรี</h1>
+                  <br />1. รายจ่ายส่วนตัวของผู้บริหารที่อยู่นอกระเบียบบริษัท
+                  <br />2. รายจ่ายเพื่อรับรองลูกค้าที่เกินโควตา (ต้องไม่เกิน 0.3% ของรายได้บริษัท)
+                  <br />3. รายจ่ายที่ไม่มีผู้รับ
+                  <br />4. รายจ่ายภาษีมูลค่าเพิ่ม
+                  <br />5. รายจ่ายให้กับบริษัทแม่หรือบริษัทลูก
+                  <br />6. รายจ่ายค่าอสังหาริมทรัพย์ที่ลดลง
+                  <br />7. รายจ่ายทรัพยากรธรรมชาติที่เสียไป
+                  <br />8. รายจ่ายค่าปรับ
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
         </div>
 
       <div className="grid grid-cols-3 ml-32 justify-items-center">
@@ -168,8 +198,10 @@ export default function TaxReduction() {
         </div>
         
         <div className="flex flex-row justify-center gap-10 mx-80">
+          <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/app/tax-reduction", '_parent')}>Previous</button>
           <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/app/tax-reduction-2", '_parent')}>Next</button>
         </div>
+
       </div>
     </>
   );

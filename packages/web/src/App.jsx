@@ -31,6 +31,7 @@ import FinancialRecordTax20 from "./pages/App/FinancialRecordTax20";
 // Financial Record
 import TaxCalculator from "./pages/App/TaxCalculator";
 import TaxReduction from "./pages/App/TaxReduction";
+import TaxReduction2 from "./pages/App/TaxReduction2";
 
 import "./App.css";
 
@@ -66,9 +67,12 @@ function App() {
         <Route path="app/financial-record-tax-reduction-21" element={<FinancialRecordTax21 />} />
         <Route path="app/financial-record-tax-reduction-20" element={<FinancialRecordTax20 />} />
 
-        {/* financial record */}
+        {/* tax calculator */}
         <Route path="app/tax-calculator" element={<TaxCalculator />} />
+
+        {/* tax reduction */}
         <Route path="app/tax-reduction" element={<TaxReduction />} />
+        <Route path="app/tax-reduction-2" element={<TaxReduction2 />} />
       </Routes>
     </>
   );
