@@ -1,14 +1,11 @@
-import lawer from "../assets/lawer.webp";
-import coin from "../assets/coin.webp";
 import FtBg from "../assets/new-bg.webp";
-// import arrow from "../assets/arrow.svg";
+import office from "../assets/office.webp";
 import Footer from "../components/Footer";
 // import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
     <>
-      {/*  */}
       <div className="relative inline-block">
         <img src={FtBg} className="w-full h-auto" />
         <h1 className="absolute top-1 left-0 ml-10 mt-16 text-white bg-secondary font-bold text-6xl p-10">
@@ -26,23 +23,33 @@ export default function Home() {
         </button>
       </div>
 
-      {/* <div className="hero max-h-screen">
-        <div className="hero-content flex-col lg:flex-row-reverse" >
-          <img src={lawer} className="max-w-sm rounded-lg shadow-2xl" />
+      {/* hero */}
+      <div className="hero min-h-fit bg-base-200">
+        <div className="hero-content flex-col lg:flex-row-reverse">
+          <img src={office} className="max-w-sm rounded-lg shadow-2xl" />
           <div>
             <h1 className="text-5xl font-bold">
-              Your Friendly <br />
-              Tax Manager
+              Short story about
+              <br />
+              Friendly Tax
             </h1>
             <p className="py-6">
-              We keep to help every SME reach their tax goal. <br />
-              Experience our friendliness
+              Medifine is an online healthcare provider, Offering health
+              <br />
+              solutions and advice to over 30,00,000 patients across Bangladesh.
+              <br />
+              <br />
+              With a team of licensed doctors and pharmasists, Medifine aim to
+              <br />
+              provide comprihensive medical consultation services for patients
+              <br />
+              and doctors alike.
             </p>
-            <button className="btn btn-success">Get Started</button>
+            <button className="btn btn-secondary">Read more</button>
           </div>
         </div>
       </div>
-
+      {/*
       <div className="card lg:card-side bg-base-100 shadow-xl">
         <figure>
           <img src={coin} />
