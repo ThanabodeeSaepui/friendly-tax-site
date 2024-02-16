@@ -30,6 +30,7 @@ import FinancialRecordTax20 from "./pages/App/FinancialRecordTax20";
 
 // Financial Record
 import TaxCalculator from "./pages/App/TaxCalculator";
+import Summary from "./pages/App/Summary";
 import TaxReduction from "./pages/App/TaxReduction";
 import TaxReduction2 from "./pages/App/TaxReduction2";
 import TaxReduction3 from "./pages/App/TaxReduction3";
@@ -59,21 +60,52 @@ function App() {
         <Route path="app/profile" element={<CompanyProfile />} />
         {/* financial record */}
         <Route path="app/financial-record" element={<FinancialRecord />} />
-        <Route path="app/financial-record-2024" element={<FinancialRecord2024 />} />
-        <Route path="app/financial-record-2023" element={<FinancialRecord2023 />} />
-        <Route path="app/financial-record-2022" element={<FinancialRecord2022 />} />
-        <Route path="app/financial-record-2021" element={<FinancialRecord2021 />} />
-        <Route path="app/financial-record-2020" element={<FinancialRecord2020 />} />
-        <Route path="app/financial-record-tax-reduction-24" element={<FinancialRecordTax24 />} />
-        <Route path="app/financial-record-tax-reduction-23" element={<FinancialRecordTax23 />} />
-        <Route path="app/financial-record-tax-reduction-22" element={<FinancialRecordTax22 />} />
-        <Route path="app/financial-record-tax-reduction-21" element={<FinancialRecordTax21 />} />
-        <Route path="app/financial-record-tax-reduction-20" element={<FinancialRecordTax20 />} />
+        <Route
+          path="app/financial-record-2024"
+          element={<FinancialRecord2024 />}
+        />
+        <Route
+          path="app/financial-record-2023"
+          element={<FinancialRecord2023 />}
+        />
+        <Route
+          path="app/financial-record-2022"
+          element={<FinancialRecord2022 />}
+        />
+        <Route
+          path="app/financial-record-2021"
+          element={<FinancialRecord2021 />}
+        />
+        <Route
+          path="app/financial-record-2020"
+          element={<FinancialRecord2020 />}
+        />
+        <Route
+          path="app/financial-record-tax-reduction-24"
+          element={<FinancialRecordTax24 />}
+        />
+        <Route
+          path="app/financial-record-tax-reduction-23"
+          element={<FinancialRecordTax23 />}
+        />
+        <Route
+          path="app/financial-record-tax-reduction-22"
+          element={<FinancialRecordTax22 />}
+        />
+        <Route
+          path="app/financial-record-tax-reduction-21"
+          element={<FinancialRecordTax21 />}
+        />
+        <Route
+          path="app/financial-record-tax-reduction-20"
+          element={<FinancialRecordTax20 />}
+        />
 
         {/* tax calculator */}
         <Route path="app/tax-calculator" element={<TaxCalculator />} />
 
         {/* tax reduction */}
+        <Route path="app/summary" element={<Summary />} />
         <Route path="app/tax-reduction" element={<TaxReduction />} />
         <Route path="app/tax-reduction-2" element={<TaxReduction2 />} />
         <Route path="app/tax-reduction-3" element={<TaxReduction3 />} />
