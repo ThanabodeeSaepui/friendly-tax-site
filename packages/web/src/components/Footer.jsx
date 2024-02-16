@@ -11,11 +11,11 @@ export default function Footer() {
         <Link to="/" className="link link-hover">
           Home
         </Link>
-        <Link to="/" className="link link-hover">
-          About us
+        <Link to="/pricing" className="link link-hover">
+          Pricing
         </Link>
         <Link to="/signup" className="link link-hover">
-          Register
+          Sign Up
         </Link>
       </nav>
       <nav>
@@ -23,19 +23,22 @@ export default function Footer() {
         <Link to="/app/profile" className="link link-hover">
           Company Profile
         </Link>
-        <Link to="/app/" className="link link-hover">
+        {/* <Link to="/app/" className="link link-hover">
           Tax Notification
-        </Link>
-        <Link to="/app/" className="link link-hover">
+        </Link> */}
+        {/* <Link to="/app/" className="link link-hover">
           AI Advisor
-        </Link>
+        </Link> */}
         <Link to="/app/tax-calculator" className="link link-hover">
           Tax Calculator
+        </Link>
+        <Link to="/app/tax-reduction" className="link link-hover">
+          Tax Reduction
         </Link>
         <Link to="/app" className="link link-hover">
           Wealth Management
         </Link>
-        <Link to="/app" className="link link-hover">
+        <Link to="/app/financial-record" className="link link-hover">
           Financial Record
         </Link>
       </nav>

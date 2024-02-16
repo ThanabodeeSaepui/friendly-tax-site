@@ -3,7 +3,7 @@ import CompanyLogo from "../../assets/bluebridge_icon.png";
 export default function CompanyProfile() {
   return (
     <>
-      <div className="card bg-neutral shadow-xl p-6 mt-10 space-y-5 ">
+      <div className="card bg-neutral shadow-xl p-6 space-y-5 my-10">
         <div className="w-full flex items-center justify-center">
           <img src={CompanyLogo} className="w-32" />
         </div>

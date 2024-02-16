@@ -1,7 +1,7 @@
 export default function Summary() {
   return (
     <>
-      <div className="rounded-lg bg-white my-10 mx-[2%]">
+      <div className="rounded-lg bg-white mx-[2%] my-10 pb-5">
         <div>
           <h2 className="text-5xl font-bold flex justify-start ml-[4%] pt-10 text-secondary">
             Summary

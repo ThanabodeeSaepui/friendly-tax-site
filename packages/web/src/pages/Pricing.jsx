@@ -5,7 +5,6 @@ import PricingFull from "../assets/p_full.webp";
 import PricingPremium from "../assets/p_premium.webp";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCheck, faMinus } from "@fortawesome/free-solid-svg-icons";
-import Footer from "../components/Footer";
 
 export default function Pricing() {
   return (
@@ -189,7 +188,6 @@ export default function Pricing() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
 
     // <div style={{ backgroundRepeat:'no-repeat' , backgroundColor:"#F0F4F5"}}>

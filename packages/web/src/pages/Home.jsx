@@ -77,7 +77,6 @@ export default function Home() {
           <a className="text-green-600 font-bold">Know more</a>
         </div>
       </div> */}
-      <Footer />
     </>
   );
 }
