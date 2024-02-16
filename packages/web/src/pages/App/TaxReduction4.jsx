@@ -143,8 +143,8 @@ export default function TaxReduction4() {
         <h1 className="text-error">คุณยังสามารถลดหย่อนภาษีได้อีก 60 วัน</h1>
 
         <div className="flex flex-row justify-center gap-10 mx-80">
-        <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/app/tax-reduction", '_parent')}>Previous</button>
-          <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/app/tax-reduction-3", '_parent')}>Next</button>
+        <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/app/tax-reduction-3", '_parent')}>Previous</button>
+          <button className="bg-[#979797] text-white font-bold w-[45%] py-2.5 my-10 rounded-2xl" onClick={()=> window.open("/app/tax-reduction-5", '_parent')}>Next</button>
         </div>
       </div>
     </>

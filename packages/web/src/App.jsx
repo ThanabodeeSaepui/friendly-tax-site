@@ -35,6 +35,8 @@ import TaxReduction from "./pages/App/TaxReduction";
 import TaxReduction2 from "./pages/App/TaxReduction2";
 import TaxReduction3 from "./pages/App/TaxReduction3";
 import TaxReduction4 from "./pages/App/TaxReduction4";
+import TaxReduction5 from "./pages/App/TaxReduction5";
+import TaxReduction6 from "./pages/App/TaxReduction6";
 
 import "./App.css";
 
@@ -109,6 +111,8 @@ function App() {
         <Route path="app/tax-reduction-2" element={<TaxReduction2 />} />
         <Route path="app/tax-reduction-3" element={<TaxReduction3 />} />
         <Route path="app/tax-reduction-4" element={<TaxReduction4 />} />
+        <Route path="app/tax-reduction-5" element={<TaxReduction5 />} />
+        <Route path="app/tax-reduction-6" element={<TaxReduction6 />} />
       </Routes>
     </>
   );
