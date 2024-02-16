@@ -43,7 +43,7 @@ const Navbar = () => {
       </div>
       {/* Desktop Navigation */}
 
-      <div className="hidden md:flex flex items-center">
+      <div className="md:flex flex items-center">
         {navItems.map((item) => (
           <a
             key={item.id}
@@ -97,3 +97,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
