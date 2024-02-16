@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faArrowUpFromBracket,
-  faPlus,
   faCircleQuestion,
 } from "@fortawesome/free-solid-svg-icons";
 
@@ -18,7 +17,7 @@ export default function TaxReduction() {
         <div className="flex flex-row justify-center items-center ml-[4%] my-10">
           {/* funding heading */}
           <div className="flex flex-row space-x-4">
-            <div className="dropdown dropdown-hover">
+            <div className={`dropdown dropdown-hover`}>
               <div className="flex flex-row items-center">
                 <div className="mr-1 text-secondary font-medium text-3xl">
                   ค่าใช้จ่าย

@@ -291,7 +291,7 @@ export default function TaxCalculator() {
           </div>
         </div>
 
-        <div className="mx-80">
+        <div>
           <button
             className="bg-[#979797] text-white font-bold w-32 py-2.5 my-10 rounded-2xl"
             onClick={() => window.open("/app/tax-reduction", "_parent")}
