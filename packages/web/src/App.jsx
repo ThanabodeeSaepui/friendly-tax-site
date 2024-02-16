@@ -5,6 +5,10 @@ import Pricing from "./pages/Pricing";
 import Profile from "./pages/User/Profile";
 import Navbar from "./components/Navbar";
 import SignUp from "./pages/SignUp";
+import SignUp2 from "./pages/SignUp2";
+import SignUp3 from "./pages/SignUp3";
+import SignUp4 from "./pages/SignUp4";
+import SignUp5 from "./pages/SignUp5";
 import SignIn from "./pages/SignIn";
 import CompanyProfile from "./pages/App/CompanyProfile";
 import FinancialRecord from "./pages/App/FinancialRecord";
@@ -20,7 +24,16 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="pricing" element={<Pricing />} />
-        <Route path="register" element={<SignUp />} />
+
+        {/* signup cards */}
+        <Route path="signup" element={<SignUp />} />
+        <Route path="signup2" element={<SignUp2 />} />
+        <Route path="signup3" element={<SignUp3 />} />
+        <Route path="signup4" element={<SignUp4 />} />
+        <Route path="signup5" element={<SignUp5 />} />
+        {/* signup cards */}
+
+        <Route path="signup" element={<SignUp />} />
         {/* <Route path="login" element={<SignIn />} /> */}
         <Route path="app/profile" element={<CompanyProfile />} />
         <Route path="app/financial-record" element={<FinancialRecord />} />
