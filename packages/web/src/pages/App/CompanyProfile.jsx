@@ -1,4 +1,4 @@
-import CompanyLogo from "../../assets/bluebridge_icon.webp";
+import CompanyLogo from "../../assets/bluebridge_icon.png";
 
 export default function CompanyProfile() {
   return (
