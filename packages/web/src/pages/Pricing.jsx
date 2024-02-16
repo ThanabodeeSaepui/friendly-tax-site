@@ -17,123 +17,143 @@ export default function Pricing() {
         </h2>
         <hr className="mx-[4%] my-4 h-0.5 w-[10%] border-t-0 bg-secondary opacity-100" />
       </div>
-      {/* pricing logos */}
-      <div className="flex flex-row h-32 ml-[50%] right-0 space-x-5 mb-10">
-        <img src={PricingLite} />
-        <img src={PricingBasic} />
-        <img src={PricingFull} />
-        <img src={PricingPremium} />
-      </div>
       {/* Pricing Headers */}
-      <div className="grid grid-rows-7 grid-flow-col gap-4">
-        {/* col 1 */}
-        <div></div>
-        <div className="font-bold">ตรวจสอบว่าเป็น SME หรือไม่</div>
-        <div className="font-bold">เก็บไฟล์เอกสาร</div>
-        <div className="font-bold">สแกนและช่วยกรอกงบการเงิน</div>
-        <div className="font-bold">บริการ wealth management</div>
-        <div className="font-bold">
-          AI ให้คำปรึกษาด้านภาษีและ<br></br>การปรับปรุงโครงสร้างองค์กร
-        </div>
-        <div className="font-bold">เซ็นงบการเงิน (1 ครั้ง/ปี)</div>
-        {/* col 2 */}
-        <div className="mb-3">
-          <h1 className="font-bold text-lg mb-3">Free</h1>
-          <button
-            className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl"
-            onClick={() => window.open("/signup", "_parent")}
-          >
-            สมัครเลย
-          </button>
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
-        </div>
-        {/* col 3 */}
-        <div>
-          <h1 className="font-bold text-lg mb-3">฿ 790 /ปี</h1>
-          <button className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl">
-            ซื้อเลย
-          </button>
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
-        </div>
-        <div>200 GB</div>
-        <div>
-          <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
-        </div>
-        {/* col 4 */}
-        <div>
-          <h1 className="font-bold text-lg mb-3">฿ 4980 /ปี</h1>
-          <button className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl">
-            ซื้อเลย
-          </button>
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
-        </div>
-        <div>2 TB</div>
-        <div>
-          <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
-        </div>
-        {/* col 5 */}
-        <div>
-          <h1 className="font-bold text-lg mb-3">฿ 8990 /ปี</h1>
-          <button className="bg-secondary text-white font-bold w-32 py-2 mb-3 rounded-2xl">
-            ซื้อเลย
-          </button>
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
-        </div>
-        <div>2 TB</div>
-        <div>
-          <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
-        </div>
-        <div>
-          <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
-        </div>
+      <div className="overflow-x-auto">
+        <table className="table table-xs table-pin-rows table-pin-cols">
+          <thead>
+            <tr>
+              <th className="font-bold text-lg">ราคาต่อปี</th>
+              <th className="font-bold text-lg">
+                <div className="h-auto flex justify-center items-center">
+                  <div className="text-center">
+                    <img className="rounded-full" src={PricingLite} />
+                    <p className="text-lg">Free</p>
+                    <button className="btn btn-primary">Register now</button>
+                  </div>
+                </div>
+              </th>
+              <th className="font-bold text-lg">
+                <div className="h-auto flex justify-center items-center">
+                  <div className="text-center">
+                    <img className="rounded-full" src={PricingBasic} />
+                    <p className="text-lg">฿ 790 /ปี</p>
+                    <button className="btn btn-primary">Buy now</button>
+                  </div>
+                </div>
+              </th>
+              <th className="font-bold text-lg">
+                <div className="h-auto flex justify-center items-center">
+                  <div className="text-center">
+                    <img className="rounded-full" src={PricingFull} />
+                    <p className="text-lg">฿ 4980 /ปี</p>
+                    <button className="btn btn-primary">Buy now</button>
+                  </div>
+                </div>
+              </th>
+              <th className="font-bold text-lg">
+                <div className="h-auto flex justify-center items-center">
+                  <div className="text-center">
+                    <img className="rounded-full" src={PricingPremium} />
+                    <p className="text-lg"> ฿ 8990 /ปี</p>
+                    <button className="btn btn-primary">Buy now</button>
+                  </div>
+                </div>
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>ตรวจสอบว่าเป็น SME หรือไม่</th>
+              <td>
+                <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
+              </td>
+            </tr>
+            <tr>
+              <th>เก็บไฟล์เอกสาร</th>
+              <td>
+                <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
+              </td>
+              <td className="text-center">200 GB</td>
+              <td className="text-center">2 Tb</td>
+              <td className="text-center">2 Tb</td>
+            </tr>
+            <tr>
+              <th>สแกนและช่วยกรอกงบการเงิน</th>
+              <td>
+                <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
+              </td>
+            </tr>
+            <tr>
+              <th>บริการ wealth management</th>
+              <td>
+                <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
+              </td>
+            </tr>
+            <tr>
+              <th>
+                AI ให้คำปรึกษาด้านภาษีและ
+                <br />
+                การปรับปรุงโครงสร้างองค์กร
+              </th>
+              <td>
+                <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
+              </td>
+            </tr>
+            <tr>
+              <th>เซ็นงบการเงิน (1 ครั้ง/ปี)</th>
+              <td>
+                <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faMinus} size="lg" color="black" />
+              </td>
+              <td>
+                <FontAwesomeIcon icon={faCheck} size="lg" color="black" />
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </div>
+
       {/* Optional */}
       <div class="row-span-2 col-span-2 mt-3 ml-[2%] mb-10">
         {/* Header */}

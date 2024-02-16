@@ -11,7 +11,7 @@ export default {
   daisyui: {
     themes: [{
       mytheme: {
-        "primary": "#450051",
+        "primary": "#740087",
         "secondary": "#740087",
         "accent": "#FEF121",
         "neutral": "#ffffff",
