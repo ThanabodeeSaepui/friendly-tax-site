@@ -176,7 +176,7 @@ export default function SignUp() {
           </button>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
+

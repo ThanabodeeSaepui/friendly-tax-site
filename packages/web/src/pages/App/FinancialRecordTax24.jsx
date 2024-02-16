@@ -90,7 +90,6 @@ export default function FinancialRecordTax24() {
           <div></div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

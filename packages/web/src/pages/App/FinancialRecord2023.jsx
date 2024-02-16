@@ -59,7 +59,6 @@ export default function FinancialRecord2023() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

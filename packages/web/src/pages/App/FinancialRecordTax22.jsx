@@ -91,7 +91,6 @@ export default function FinancialRecordTax22() {
           <div></div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

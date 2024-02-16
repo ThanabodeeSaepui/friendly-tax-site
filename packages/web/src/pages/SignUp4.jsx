@@ -178,7 +178,7 @@ export default function SignUp4() {
           </button>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
+

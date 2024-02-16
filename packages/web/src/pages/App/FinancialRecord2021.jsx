@@ -59,7 +59,6 @@ export default function FinancialRecord2021() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

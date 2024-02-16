@@ -59,7 +59,6 @@ export default function FinancialRecord2020() {
           </div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

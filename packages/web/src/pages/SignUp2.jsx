@@ -184,7 +184,7 @@ export default function SignUp2() {
           </button>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
+

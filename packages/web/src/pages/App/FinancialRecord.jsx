@@ -88,7 +88,6 @@ export default function FinancialRecord() {
           <div></div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }

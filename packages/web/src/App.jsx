@@ -42,6 +42,7 @@ import TaxReduction6 from "./pages/App/TaxReduction6";
 import AICompare from "./pages/App/AICompare";
 
 import "./App.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -119,6 +120,7 @@ function App() {
 
         <Route path="app/tax-compare" element={<AICompare />} />
       </Routes>
+      <Footer />
     </>
   );
 }

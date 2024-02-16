@@ -91,7 +91,6 @@ export default function FinancialRecordTax20() {
           <div></div>
         </div>
       </div>
-      <Footer />
     </>
   );
 }
