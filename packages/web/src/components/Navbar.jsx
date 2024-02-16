@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ftLogo from "../assets/friendlytax_logo.webp";
+import ftLogo from "../assets/friendlytax_logo.png";
 import CompanyIcon from "../assets/bluebridge_icon.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -7,7 +7,7 @@ import {
   faDatabase,
   faCaretDown,
   faAnglesDown,
-  faChartBar
+  faChartBar,
 } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
