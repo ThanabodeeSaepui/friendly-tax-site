@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFolder, faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import FolderIcon from "../../assets/pngwing-52.webp";
-import AddFolder from "../../assets/add-folder.webp";
+import FolderIcon from "../../assets/pngwing-52.png";
+import AddFolder from "../../assets/add-folder.png";
 import Footer from "../../components/Footer";
 
 export default function FinancialRecord2023() {

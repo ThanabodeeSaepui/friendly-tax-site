@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFolder, faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import FolderIcon from "../../assets/pngwing-52.webp";
+import FolderIcon from "../../assets/pngwing-52.png";
 import Footer from "../../components/Footer";
 
 export default function FinancialRecordTax24() {
