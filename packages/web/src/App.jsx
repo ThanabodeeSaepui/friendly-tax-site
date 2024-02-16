@@ -38,6 +38,9 @@ import TaxReduction4 from "./pages/App/TaxReduction4";
 import TaxReduction5 from "./pages/App/TaxReduction5";
 import TaxReduction6 from "./pages/App/TaxReduction6";
 
+// AI compare
+import AICompare from "./pages/App/AICompare";
+
 import "./App.css";
 
 function App() {
@@ -113,6 +116,9 @@ function App() {
         <Route path="app/tax-reduction-4" element={<TaxReduction4 />} />
         <Route path="app/tax-reduction-5" element={<TaxReduction5 />} />
         <Route path="app/tax-reduction-6" element={<TaxReduction6 />} />
+
+        <Route path="app/tax-compare" element={<AICompare />} />
+
       </Routes>
     </>
   );
