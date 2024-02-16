@@ -4,19 +4,66 @@ export default function Summary() {
       <div className="rounded-lg bg-white my-10 mx-[2%]">
         <div>
           <h2 className="text-5xl font-bold flex justify-start ml-[4%] pt-10 text-secondary">
-            Tax Reduction
+            Summary
           </h2>
           <hr className="mx-[4%] my-4 h-0.5 w-[10%] border-t-0 bg-secondary opacity-100" />
         </div>
-        <div
-          tabIndex={0}
-          className="collapse collapse-arrow border border-base-300 bg-base-200"
-        >
-          <div className="collapse-title text-xl font-medium">
-            Focus me to see content
+        <div className="ml-[4%] my-10">
+          <div>
+            <h4>ค่าลดหย่อนส่วนตัว</h4>
+            <p>60,000 บาท</p>
           </div>
-          <div className="collapse-content">
-            <p>tabIndex={0} attribute is necessary to make the div focusable</p>
+          <div>
+            <h4>ค่าลดหย่อนบิดามารดา</h4>
+            <p>คนละ 30,000 บาท</p>
+          </div>
+          <div>
+            <h4>ค่าลดหย่อนบุตร</h4>
+            <p>
+              ลูกคนแรกแบบเหมา 30,000 บาทต่อปี <br />
+              ลูกคนที่ 2 เป็นต้นไป (เกิดหลัง 2561) คนละ 60,000 บาท
+            </p>
+          </div>
+          <div>
+            <h4>เงินประกันสังคม</h4>
+            <p>จ่ายตามจริงแต่ไม่เกิน 9,000 บาท</p>
+          </div>
+          <div>
+            <h4>กองทุนการออมแห่งชาติ</h4>
+            <p>
+              จ่ายตามจริงแต่ไม่เกิน 30,000 บาทและเมื่อรวมกับ 10. และ RMF <br />
+              และเบี้ยประกันชีวิตแบบบำนาญ แล้วต้องไม่เกิน 500,000 บาท
+            </p>
+          </div>
+          <div>
+            <h4>เงินประกันสังคม</h4>
+            <p>จ่ายตามจริงแต่ไม่เกิน 9,000 บาท</p>
+          </div>
+          <div>
+            <h4>กองทุนการออมแห่งชาติ</h4>
+            <p>
+              จ่ายตามจริงแต่ไม่เกิน 30,000 บาทและเมื่อรวมกับ 10. และ RMF
+              <br />
+              และเบี้ยประกันชีวิตแบบบำนาญ แล้วต้องไม่เกิน 500,000 บาท
+            </p>
+          </div>
+          <div>
+            <h4>กองทุนการออมแห่งชาติ</h4>
+            <p>
+              จ่ายตามจริงแต่ไม่เกิน 30,000 บาทและเมื่อรวมกับ 10. และ RMF
+              <br />
+              และเบี้ยประกันชีวิตแบบบำนาญ แล้วต้องไม่เกิน 500,000 บาท
+            </p>
+          </div>
+          <div>
+            <h4>ค่าซื้อกองทุนเพื่อการออม SSF</h4>
+            <p>
+              ตามที่จ่ายจริงแต่ไม่เกิน 30% ของเงินได้ที่ต้องเสียภาษีและไม่เกิน
+              200,000 <br />
+              บาทและเมื่อรวมกับ 10. และ RMF และเบี้ยประกันชีวิตแบบบำนาญและ
+              <br />
+              กอช. แล้วต้องไม่เกิน 500,000 บาท
+            </p>
           </div>
         </div>
       </div>
