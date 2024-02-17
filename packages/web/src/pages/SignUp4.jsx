@@ -6,6 +6,23 @@ export default function SignUp4() {
       {/* main container */}
       <div className="rounded-lg bg-white my-10 mx-[2%]">
         {/* Heading */}
+        <div className="grid grid-cols-5 gap-5 mx-5">
+          <div className="bg-[#CBCBCB] rounded-xl text-black py-2 font-medium text-sm flex justify-center items-center">
+            Your Information
+          </div>
+          <div className="bg-[#CBCBCB] rounded-xl text-black py-2 font-medium text-sm flex justify-center items-center">
+            Contact
+          </div>
+          <div className="bg-[#CBCBCB] rounded-xl text-black py-2 font-bold text-sm flex justify-center items-center">
+            Company
+          </div>
+          <div className="bg-secondary rounded-xl text-white py-2 font-medium text-sm flex justify-center items-center">
+            Checklist
+          </div>
+          <div className="bg-[#CBCBCB] rounded-xl text-black py-2 font-medium text-sm flex justify-center items-center">
+            Final
+          </div>
+        </div>
 
         <div className="grid grid-rows-6 grid-flow-col justify-center">
           {/* 0 */}

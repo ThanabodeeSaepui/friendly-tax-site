@@ -1,4 +1,4 @@
-import Footer from "../components/Footer";
+import { Link } from "react-router-dom";
 
 export default function SignUp5() {
   return (
@@ -33,12 +33,14 @@ export default function SignUp5() {
           >
             จด
           </button>
-          <button
-            className="border border-secondary text-secondary font-bold w-32 py-2.5 my-10 rounded-2xl"
-            onClick={() => window.open("/app/profile", "_parent")}
-          >
-            ไม่จด
-          </button>
+          <Link to="/pricing">
+            <button
+              className="border border-secondary text-secondary font-bold w-32 py-2.5 my-10 rounded-2xl"
+              // onClick={() => window.open("/app/pricing", "_parent")}
+            >
+              ไม่จด
+            </button>
+          </Link>
         </div>
         <div className="flex flex-row justify-center gap-10">
           <button

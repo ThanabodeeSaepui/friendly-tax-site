@@ -1,7 +1,6 @@
 import FtBg from "../assets/new-bg.webp";
 import office from "../assets/office.webp";
-import Footer from "../components/Footer";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -15,12 +14,14 @@ export default function Home() {
           We keen to help every SME reach their tax goal.<br></br>Experience our
           friendliness.
         </h1>
-        <button
-          className="absolute top-1/2 left-0 ml-10 bg-accent text-secondary text-xl mt-32 px-16 py-3 rounded-full"
-          onClick={() => window.open("/signup", "_parent")}
-        >
-          Get Started
-        </button>
+        <Link to="signup">
+          <button
+            className="absolute top-1/2 left-0 ml-10 bg-accent text-secondary text-xl mt-32 px-16 py-3 rounded-full"
+            // onClick={() => window.open("/signup", "_parent")}
+          >
+            Get Started
+          </button>
+        </Link>
       </div>
 
       {/* hero */}
@@ -37,16 +38,31 @@ export default function Home() {
               Friendly Tax
             </h1>
             <p className="py-6">
-              Medifine is an online healthcare provider, Offering health
+              the firm's approach went beyond mere number-crunching, aiming to
               <br />
-              solutions and advice to over 30,00,000 patients across Bangladesh.
+              alleviate clients' tax-related anxieties through personalized
+              <br />
+              services and cutting-edge technology. By embracing OCR and digital
+              <br />
+              transformation, Friendly Tax streamlined its operations, offering
+              <br />
+              seamless tax planning and reduction services, all while fostering
+              <br />
+              genuine connections with its clients.
               <br />
               <br />
-              With a team of licensed doctors and pharmasists, Medifine aim to
+              What truly set Friendly Tax apart was its commitment to social
               <br />
-              provide comprihensive medical consultation services for patients
+              responsibility. We believed in giving back to the community,
               <br />
-              and doctors alike.
+              sponsoring financial literacy programs and providing pro bono
+              <br />
+              services to local nonprofits. Their ethos of ethics and empathy
+              <br />
+              inspired others, turning Friendly Tax into more than just a<br />
+              business but a symbol of hope and possibility in an often
+              <br />
+              cutthroat industry.
             </p>
             <button className="btn btn-secondary">Read more</button>
           </div>
